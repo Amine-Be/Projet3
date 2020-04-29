@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Devonshire&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+/* CSS HEADER */
+header {
+  background: #207e62;
+  font-family: "Montserrat", cursive;
+  font-size: 1.8em;
+  color: #fbd115;
+  text-align: center;
+  padding: 20px;
+}
+
+/* CSS CONTAINER - ARTICLES - DIV */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  margin: 50px 300px;
+  padding: 20px 30px 0 30px;
+  border: 3px solid black;
+}
+.container article {
+  width: 40%;
+  border: 1px solid red;
+  padding: 200px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.container div {
+  background: #207e62;
+  font-family: "Montserrat", cursive;
+  color: #fbd115;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+/* CSS FOOTER */
+footer {
+  background: #207e62;
+  font-family: "Montserrat", cursive;
+  padding: 20px;
+}
+footer a {
+  color: #fbd115;
+  font-size: 1.5em;
+}
+
+/*# sourceMappingURL=style_index.css.map */
