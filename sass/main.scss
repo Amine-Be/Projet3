@@ -58,16 +58,52 @@ header {
   }
 }
 
-.container {
+.container {                  //* background first menu
   & > :nth-child(1) {
     background: $first-bcg;
-    h2 {
+    h2 {                      //* font of "menu"
       font-family: "Sriracha", cursive;
       color: $first-txt;
     }
-    h3 {
+    h3 {                      //* font of "La note enchantée"
       font-family: "Devonshire", cursive;
       color: $first-txt;
+    }
+  }
+}
+
+.container {                  //* background second menu
+  & > :nth-child(2) {
+    background: $second-bcg;
+    h2 {                      //* font of "menu"
+      font-family: "Playfair Display", cursive;
+    }
+    h3 {                      //* font of "Le chic à la française"
+      font-family: "Croissant One", cursive;
+    }
+  }
+}
+
+.container {                  //* background third menu
+  & > :nth-child(3) {
+    background: $third-bcg;
+    h2 {                      //* font of "menu"
+      font-family: "Caveat", cursive;
+    }
+    h3 {                      //* font of "Le délice des papilles"
+      font-family: "Dancing Script", cursive;
+    }
+  }
+}
+
+.container {                  //* background fourth menu
+  & > :nth-child(4) {   
+    background: $fourth-bcg;
+    h2 {                      //* font of "menu"
+      font-family: "Caveat", cursive;
+    }
+    h3 {                      //* font of "La palette du goût"
+      font-family: "Kaushan Script", cursive;
     }
   }
 }
