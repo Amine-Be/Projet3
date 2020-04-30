@@ -14,6 +14,7 @@ header {
   color: #ffd001ec;
   text-align: center;
   padding: 20px;
+  border-bottom: 1px solid #94eb31;
 }
 
 /* CSS CONTAINER - ARTICLES - DIV */
@@ -108,6 +109,7 @@ footer {
   background: #3d8d75ea;
   font-family: "Montserrat", cursive;
   padding: 20px;
+  border-top: 1px solid #94eb31;
 }
 footer a {
   color: #fbd115;
