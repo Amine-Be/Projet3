@@ -44,7 +44,7 @@ header {
 }
 
 .container > :nth-child(1) {
-  background: #af5068;
+  background: #fddcda;
 }
 .container > :nth-child(1) h2 {
   font-family: "Sriracha", cursive;
@@ -56,7 +56,7 @@ header {
 }
 
 .container > :nth-child(2) {
-  background: #fbcdf5;
+  background: #fff9ea;
 }
 .container > :nth-child(2) h2 {
   font-family: "Playfair Display", cursive;
@@ -66,7 +66,7 @@ header {
 }
 
 .container > :nth-child(3) {
-  background: #d3d5ee;
+  background: #eef0f2;
 }
 .container > :nth-child(3) h2 {
   font-family: "Caveat", cursive;
