@@ -44,6 +44,9 @@ header {
     padding: 200px 20px;
     margin-bottom: 50px;
     text-align: center;
+    a {
+      text-decoration: none;
+    }
   }
 
   div {
@@ -112,13 +115,13 @@ header {
 footer {
   display: flex;
   justify-content: space-between;
-    background: $background-color;
+  background: $background-color;
   font-family: "Montserrat", cursive;
   padding: 20px;
   a {
       color: #fbd115;
       font-size: 1.5em;
-      
+      text-decoration: none;
   }
 }
 
