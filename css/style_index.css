@@ -8,10 +8,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 /* CSS HEADER */
 header {
-  background: #207e62;
+  background: #3d8d75ea;
   font-family: "Montserrat", cursive;
   font-size: 1.8em;
-  color: #fbd115;
+  color: #ffd001ec;
   text-align: center;
   padding: 20px;
 }
@@ -36,18 +36,30 @@ header {
 .container div {
   display: flex;
   align-items: center;
-  background: #207e62;
+  background: #3d8d75ea;
   font-family: "Montserrat", cursive;
-  color: #fbd115;
+  color: #ffd001ec;
   border-radius: 6px;
   padding: 15px;
+}
+
+.container > :nth-child(1) {
+  background: #af5068;
+}
+.container > :nth-child(1) h2 {
+  font-family: "Sriracha", cursive;
+  color: #440f0f;
+}
+.container > :nth-child(1) h3 {
+  font-family: "Devonshire", cursive;
+  color: #440f0f;
 }
 
 /* CSS FOOTER */
 footer {
   display: flex;
   justify-content: space-between;
-  background: #207e62;
+  background: #3d8d75ea;
   font-family: "Montserrat", cursive;
   padding: 20px;
 }
