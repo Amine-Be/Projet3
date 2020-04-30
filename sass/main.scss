@@ -9,11 +9,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"); // La palette du goût
 
 //* Variables
-$background-color: #207e62;
-$first-color: #f8b2ef;
-$second-color: #fbcdf5;
-$third-color: #d3d5ee;
-$forth-color: #ffffff;
+$background-color: #3d8d75ea;
+$color-txt: #ffd001ec;
+$first-bcg: #af5068;
+$first-txt: #440f0f;
+$second-bcg: #fbcdf5;
+$third-bcg: #d3d5ee;
+$fourth-bcg: #ffffff;
 
 
         /* CSS HEADER */
@@ -21,7 +23,7 @@ header {
   background: $background-color;
   font-family: "Montserrat", cursive;
   font-size: 1.8em;
-  color: #fbd115;
+  color: $color-txt;
   text-align: center;
   padding: 20px;
 }
@@ -49,10 +51,24 @@ header {
     align-items: center;
     background: $background-color;
     font-family: "Montserrat", cursive;
-    color: #fbd115;
+    color: $color-txt;
     border-radius: 6px;
     padding: 15px;
     
+  }
+}
+
+.container {
+  & > :nth-child(1) {
+    background: $first-bcg;
+    h2 {
+      font-family: "Sriracha", cursive;
+      color: $first-txt;
+    }
+    h3 {
+      font-family: "Devonshire", cursive;
+      color: $first-txt;
+    }
   }
 }
 
