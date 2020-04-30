@@ -12,12 +12,16 @@
 $background-color: #3d8d75ea;
 $color-txt: #ffd001ec;
 $first-bcg: #fddcda; 
-$first-txt: #430000;
+$first-txt: #3e2723;
 $second-bcg: #fff9ea; 
 $third-bcg: #eef0f2;  
 $fourth-bcg: #ffffff;
 
-
+        /* CSS BODY */
+body {
+  margin: auto;
+}    
+      
         /* CSS HEADER */
 header {
   background: $background-color;
@@ -35,7 +39,8 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 300px;
+  width: 650px;
+  margin: 50px auto;
   padding: 20px 30px 0 30px;
   border: 3px solid black;
 
@@ -54,6 +59,7 @@ header {
   div {
     display: flex;
     align-items: baseline;
+    width: 250px;
     background: $background-color;
     font-family: "Montserrat", cursive;
     color: $color-txt;
@@ -91,6 +97,10 @@ header {
     }
     h3 {                      //* font of "Le chic à la française"
       font-family: "Croissant One", cursive;
+      background: linear-gradient(to right, #d77600, #4527A0);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
     }
   }
 }
@@ -101,11 +111,15 @@ header {
     h2 {                      //* font of "menu"
       font-family: "Caveat", cursive;
       font-size: 2.5em;
-      color: #00a2d8;
+      color: #03A9F4;
     }
     h3 {                      //* font of "Le délice des papilles"
       font-family: "Dancing Script", cursive;
       font-size: 1.5em;
+      background: linear-gradient(to right, #1A237E, #03A9F4);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
     }
   }
 }
@@ -116,11 +130,15 @@ header {
     h2 {                      //* font of "menu"
       font-family: "Caveat", cursive;
       font-size: 2.5em;
-      color: #60bd53;
+      color: #388E3C;
     }
     h3 {                      //* font of "La palette du goût"
       font-family: "Kaushan Script", cursive;
       font-size: 1.5em;
+      background: linear-gradient(to right, #388E3C, #b4ff5f);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
     }
   }
 }
