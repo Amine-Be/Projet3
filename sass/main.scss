@@ -11,11 +11,11 @@
 //* Variables
 $background-color: #3d8d75ea;
 $color-txt: #ffd001ec;
-$first-bcg: #af5068;
+$first-bcg: #fddcda; // fddcda
 $first-txt: #440f0f;
-$second-bcg: #fbcdf5;
-$third-bcg: #d3d5ee;
-$fourth-bcg: #ffffff;
+$second-bcg: #fff9ea; // f7ecf5
+$third-bcg: #eef0f2;  // eef0f2
+$fourth-bcg: #ffffff; // ffffff
 
 
         /* CSS HEADER */
@@ -118,6 +118,7 @@ footer {
   a {
       color: #fbd115;
       font-size: 1.5em;
+      
   }
 }
 
