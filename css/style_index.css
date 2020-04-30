@@ -10,7 +10,7 @@
 header {
   background: #3d8d75ea;
   font-family: "Montserrat", cursive;
-  font-size: 1.8em;
+  font-size: 1.9em;
   color: #ffd001ec;
   text-align: center;
   padding: 20px;
@@ -28,6 +28,7 @@ header {
 }
 .container article {
   width: 40%;
+  box-shadow: 0 0 13px lightgrey;
   border: 1px solid red;
   padding: 200px 20px;
   margin-bottom: 50px;
@@ -38,7 +39,7 @@ header {
 }
 .container div {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   background: #3d8d75ea;
   font-family: "Montserrat", cursive;
   color: #ffd001ec;
@@ -51,11 +52,15 @@ header {
 }
 .container > :nth-child(1) h2 {
   font-family: "Sriracha", cursive;
-  color: #440f0f;
+  font-size: 2em;
+  font-weight: normal;
+  color: #430000;
 }
 .container > :nth-child(1) h3 {
   font-family: "Devonshire", cursive;
-  color: #440f0f;
+  font-size: 1.9em;
+  font-weight: normal;
+  color: #430000;
 }
 
 .container > :nth-child(2) {
@@ -63,6 +68,8 @@ header {
 }
 .container > :nth-child(2) h2 {
   font-family: "Playfair Display", cursive;
+  font-size: 2em;
+  color: #d77600;
 }
 .container > :nth-child(2) h3 {
   font-family: "Croissant One", cursive;
@@ -73,9 +80,12 @@ header {
 }
 .container > :nth-child(3) h2 {
   font-family: "Caveat", cursive;
+  font-size: 2.5em;
+  color: #00a2d8;
 }
 .container > :nth-child(3) h3 {
   font-family: "Dancing Script", cursive;
+  font-size: 1.5em;
 }
 
 .container > :nth-child(4) {
@@ -83,9 +93,12 @@ header {
 }
 .container > :nth-child(4) h2 {
   font-family: "Caveat", cursive;
+  font-size: 2.5em;
+  color: #60bd53;
 }
 .container > :nth-child(4) h3 {
   font-family: "Kaushan Script", cursive;
+  font-size: 1.5em;
 }
 
 /* CSS FOOTER */
