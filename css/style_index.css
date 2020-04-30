@@ -55,6 +55,36 @@ header {
   color: #440f0f;
 }
 
+.container > :nth-child(2) {
+  background: #fbcdf5;
+}
+.container > :nth-child(2) h2 {
+  font-family: "Playfair Display", cursive;
+}
+.container > :nth-child(2) h3 {
+  font-family: "Croissant One", cursive;
+}
+
+.container > :nth-child(3) {
+  background: #d3d5ee;
+}
+.container > :nth-child(3) h2 {
+  font-family: "Caveat", cursive;
+}
+.container > :nth-child(3) h3 {
+  font-family: "Dancing Script", cursive;
+}
+
+.container > :nth-child(4) {
+  background: #ffffff;
+}
+.container > :nth-child(4) h2 {
+  font-family: "Caveat", cursive;
+}
+.container > :nth-child(4) h3 {
+  font-family: "Kaushan Script", cursive;
+}
+
 /* CSS FOOTER */
 footer {
   display: flex;
