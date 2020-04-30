@@ -11,18 +11,18 @@
 //* Variables
 $background-color: #3d8d75ea;
 $color-txt: #ffd001ec;
-$first-bcg: #fddcda; // fddcda
-$first-txt: #440f0f;
-$second-bcg: #fff9ea; // f7ecf5
-$third-bcg: #eef0f2;  // eef0f2
-$fourth-bcg: #ffffff; // ffffff
+$first-bcg: #fddcda; 
+$first-txt: #430000;
+$second-bcg: #fff9ea; 
+$third-bcg: #eef0f2;  
+$fourth-bcg: #ffffff;
 
 
         /* CSS HEADER */
 header {
   background: $background-color;
   font-family: "Montserrat", cursive;
-  font-size: 1.8em;
+  font-size: 1.9em;
   color: $color-txt;
   text-align: center;
   padding: 20px;
@@ -40,6 +40,7 @@ header {
 
   article {
     width: 40%;
+    box-shadow: 0 0 13px lightgrey;
     border: 1px solid red;
     padding: 200px 20px;
     margin-bottom: 50px;
@@ -51,7 +52,7 @@ header {
 
   div {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     background: $background-color;
     font-family: "Montserrat", cursive;
     color: $color-txt;
@@ -66,10 +67,14 @@ header {
     background: $first-bcg;
     h2 {                      //* font of "menu"
       font-family: "Sriracha", cursive;
+      font-size: 2em;
+      font-weight: normal;
       color: $first-txt;
     }
     h3 {                      //* font of "La note enchantée"
       font-family: "Devonshire", cursive;
+      font-size: 1.9em;
+      font-weight: normal;
       color: $first-txt;
     }
   }
@@ -80,6 +85,8 @@ header {
     background: $second-bcg;
     h2 {                      //* font of "menu"
       font-family: "Playfair Display", cursive;
+      font-size: 2em;
+      color: #d77600;
     }
     h3 {                      //* font of "Le chic à la française"
       font-family: "Croissant One", cursive;
@@ -92,9 +99,12 @@ header {
     background: $third-bcg;
     h2 {                      //* font of "menu"
       font-family: "Caveat", cursive;
+      font-size: 2.5em;
+      color: #00a2d8;
     }
     h3 {                      //* font of "Le délice des papilles"
       font-family: "Dancing Script", cursive;
+      font-size: 1.5em;
     }
   }
 }
@@ -104,9 +114,12 @@ header {
     background: $fourth-bcg;
     h2 {                      //* font of "menu"
       font-family: "Caveat", cursive;
+      font-size: 2.5em;
+      color: #60bd53;
     }
     h3 {                      //* font of "La palette du goût"
       font-family: "Kaushan Script", cursive;
+      font-size: 1.5em;
     }
   }
 }
