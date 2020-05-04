@@ -26,15 +26,16 @@ header {
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 650px;
   margin: 50px auto;
-  padding: 20px 30px 0 30px;
+  padding: 25px;
   border: 3px solid black;
 }
 .container article {
-  width: 40%;
+  width: 250px;
+  height: 160px;
   box-shadow: 0 0 13px lightgrey;
   border: 1px solid red;
   padding: 200px 20px;
@@ -54,6 +55,10 @@ header {
   border-radius: 6px;
   padding: 15px;
 }
+.container div .fa-circle {
+  font-size: xx-small;
+  margin: 0 6px;
+}
 
 .container > :nth-child(1) {
   background: #fddcda;
@@ -63,12 +68,17 @@ header {
   font-size: 2em;
   font-weight: normal;
   color: #3e2723;
+  margin: 15px;
 }
 .container > :nth-child(1) h3 {
   font-family: "Devonshire", cursive;
   font-size: 1.9em;
   font-weight: normal;
   color: #3e2723;
+  margin: 5px;
+}
+.container > :nth-child(1) .fa-music {
+  font-size: 2.5em;
 }
 
 .container > :nth-child(2) {
