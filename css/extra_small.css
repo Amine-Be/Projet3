@@ -1,0 +1,34 @@
+body {
+  width: 100%;
+}
+
+header {
+  width: auto;
+}
+header h2 {
+  font-size: 1.5em;
+}
+
+.container {
+  flex-direction: column;
+  width: auto;
+}
+.container article {
+  width: 75%;
+}
+.container div {
+  width: 75%;
+}
+.container div h2 {
+  font-size: 1em;
+  margin-left: 5px;
+}
+
+footer {
+  width: auto;
+}
+footer a {
+  font-size: 0.9em;
+}
+
+/*# sourceMappingURL=extra_small.css.map */

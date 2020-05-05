@@ -14,13 +14,14 @@ header {
     flex-direction: column;
     width: auto;
     article {
-        width: auto;
+        width: 75%;
     }
 
     div{
-        width: 180px;
+        width: 75%;
         h2 {
             font-size: 1em;
+            margin-left: 5px;
         }
     }
 }
