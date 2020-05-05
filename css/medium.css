@@ -1,3 +1,68 @@
+body {
+  width: 100%;
+}
 
+header {
+  width: auto;
+}
+header h1 {
+  font-size: 4.5em;
+}
+
+.container {
+  width: auto;
+}
+.container > :nth-child(1) h2 {
+  font-size: 2.5em;
+}
+.container > :nth-child(1) h3 {
+  font-size: 2.2em;
+}
+
+.container {
+  width: auto;
+}
+.container > :nth-child(2) h2 {
+  font-size: 2.5em;
+}
+.container > :nth-child(2) h3 {
+  font-size: 1.6em;
+}
+
+.container {
+  width: auto;
+}
+.container > :nth-child(3) h2 {
+  font-size: 3em;
+}
+.container > :nth-child(3) h3 {
+  font-size: 2.2em;
+}
+
+.container {
+  width: auto;
+}
+.container > :nth-child(4) h2 {
+  font-size: 3em;
+}
+.container > :nth-child(4) h3 {
+  font-size: 2em;
+}
+
+.container div {
+  width: 50%;
+}
+.container div h2 {
+  font-size: 2.1em;
+  margin-left: 12px;
+}
+.container div .fa-circle {
+  font-size: 10px;
+}
+
+footer a {
+  font-size: 2em;
+  padding: 10px;
+}
 
 /*# sourceMappingURL=medium.css.map */

@@ -1,0 +1,78 @@
+body {
+    width: 100%;
+}
+
+header {
+    width: auto;
+    h1 {
+        font-size: 4.5em;
+    }
+}
+
+.container {
+    width: auto;
+    > :nth-child(1) {
+        h2 {
+            font-size: 2.5em;
+        }
+        h3 {
+            font-size: 2.2em;
+        }
+    }
+}
+
+.container {
+    width: auto;
+    > :nth-child(2) {
+        h2 {
+            font-size: 2.5em;
+        }
+        h3 {
+            font-size: 1.6em;
+        }
+    }
+}
+
+.container {
+    width: auto;
+    > :nth-child(3) {
+        h2 {
+            font-size: 3em;
+        }
+        h3 {
+            font-size: 2.2em;
+        }
+    }
+}
+
+.container {
+    width: auto;
+    > :nth-child(4) {
+        h2 {
+            font-size: 3em;
+        }
+        h3 {
+            font-size: 2em;
+        }
+    }
+}
+
+.container {
+    div {
+        width: 50%;
+        h2 {
+            font-size: 2.1em;
+            margin-left: 12px;
+        }
+        .fa-circle {
+            font-size: 10px;
+        }
+    }
+}
+
+footer {
+    a {
+        font-size: 2em;
+        padding: 10px;
+    }
+}
