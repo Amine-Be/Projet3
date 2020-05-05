@@ -1,0 +1,26 @@
+body {
+  width: auto;
+}
+
+header {
+  width: auto;
+}
+header h1 {
+  font-size: 3.5em;
+}
+
+.container {
+  width: 80%;
+}
+.container div {
+  width: 45%;
+}
+.container div h2 {
+  margin-left: 15px;
+}
+
+footer {
+  width: auto;
+}
+
+/*# sourceMappingURL=small.css.map */
