@@ -13,13 +13,16 @@ body {
 
 /* CSS HEADER */
 header {
-  background: #3d8d75ea;
-  font-family: "Montserrat", cursive;
-  font-size: 1.9em;
-  color: #ffd001ec;
+  background: #2d9c65;
   text-align: center;
   padding: 20px;
   border-bottom: 1px solid #94eb31;
+}
+header h1 {
+  font-size: 2.8em;
+  font-family: "Montserrat", cursive;
+  color: #faca47;
+  letter-spacing: -4px;
 }
 
 /* CSS CONTAINER - ARTICLES - DIV */
@@ -49,14 +52,14 @@ header {
   display: flex;
   align-items: baseline;
   width: 250px;
-  background: #3d8d75ea;
+  background: #2d9c65;
   font-family: "Montserrat", cursive;
-  color: #ffd001ec;
+  color: #faca47;
   border-radius: 6px;
-  padding: 15px;
+  padding: 5px;
 }
 .container div .fa-circle {
-  font-size: xx-small;
+  font-size: 7px;
   margin: 0 6px;
 }
 
@@ -135,7 +138,7 @@ header {
 footer {
   display: flex;
   justify-content: space-between;
-  background: #3d8d75ea;
+  background: #2d9c65;
   font-family: "Montserrat", cursive;
   padding: 20px;
   border-top: 1px solid #94eb31;
