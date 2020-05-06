@@ -1,2 +1,29 @@
+//* Fonts
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"); // Header & footer
+@import url("https://fonts.googleapis.com/css2?family=Devonshire&display=swap"); // La note enchantée
 
+//* Variables
+$background-color: #2d9c65;
+$color-txt: #faca47;
+$first-bcg: #fddcda; 
+$first-txt: #3e2723;
+
+        /* CSS BODY */
+body {
+    margin: auto;
+}
+
+        /* CSS HEADER */
+header {
+  background: $background-color;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 2px solid #9fcc6b;
+  h1 {
+    font-size: 2.8em;
+    font-family: "Montserrat", cursive;
+    color: $color-txt;
+    letter-spacing: -4px;
+  }
+}
             
