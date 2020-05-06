@@ -1,3 +1,19 @@
+/* REPONSIVE BODY - HEADER - FOOTER */
+body {
+  width: auto;
+  margin: 0 auto;
+}
 
+header {
+  width: auto;
+}
+header h1 {
+  font-size: 4em;
+}
+
+/* RESPONSIVE MENU */
+ul li {
+  margin-bottom: 10px;
+}
 
 /*# sourceMappingURL=large.css.map */
