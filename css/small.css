@@ -1,3 +1,4 @@
+/* CSS BODY - HEADER - FOOTER */
 body {
   width: auto;
 }
@@ -9,6 +10,11 @@ header h1 {
   font-size: 3.5em;
 }
 
+footer {
+  width: auto;
+}
+
+/* CSS INDEX */
 .container {
   width: 80%;
 }
@@ -19,8 +25,12 @@ header h1 {
   margin-left: 15px;
 }
 
-footer {
-  width: auto;
+/* CSS MENUS */
+ul li {
+  padding: 0 45px;
+}
+ul li span {
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=small.css.map */
