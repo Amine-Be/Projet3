@@ -36,7 +36,7 @@ footer {
     }
 }
 
-        /* RESPONSIVE - LA NOTE ENCHANTÉE */
+        /* RESPONSIVE - MENU */
 .menu {
     flex-direction: column;
     width: auto;
@@ -61,5 +61,9 @@ ul {
     li {
         font-size: 1.3em;
         text-align: left;
+        margin-bottom: 10px;
+        span {
+            margin-left: 10px;
+        }
     }
 }

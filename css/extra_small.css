@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* CSS BASE */
 body {
   width: 100%;
@@ -34,7 +33,7 @@ footer a {
   margin-left: 5px;
 }
 
-/* RESPONSIVE - LA NOTE ENCHANTÉE */
+/* RESPONSIVE - MENU */
 .menu {
   flex-direction: column;
   width: auto;
@@ -56,6 +55,10 @@ footer a {
 ul li {
   font-size: 1.3em;
   text-align: left;
+  margin-bottom: 10px;
+}
+ul li span {
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=extra_small.css.map */
