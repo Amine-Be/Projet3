@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 /* CSS BODY */
 body {
@@ -55,6 +55,7 @@ header h1 {
   color: #faca47;
   border-radius: 6px;
   padding: 5px;
+  margin-bottom: 50px;
 }
 .container div .fa-circle {
   font-size: 7px;
@@ -103,6 +104,7 @@ header h1 {
 }
 .container > :nth-child(3) h2 {
   font-family: "Caveat", cursive;
+  font-weight: bold;
   font-size: 2.5em;
   color: #03A9F4;
 }
@@ -120,6 +122,7 @@ header h1 {
 }
 .container > :nth-child(4) h2 {
   font-family: "Caveat", cursive;
+  font-weight: bold;
   font-size: 2.5em;
   color: #388E3C;
 }
