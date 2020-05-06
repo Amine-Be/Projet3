@@ -1,7 +1,7 @@
 //* Fonts
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"); // Header & footer
 @import url("https://fonts.googleapis.com/css2?family=Devonshire&display=swap"); // La note enchantée
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"); // Menu 3 & 4
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap'); // Menu 3 & 4
 
 //* Variables
 $background-color: #2d9c65;
@@ -34,7 +34,6 @@ header {
     background-color: $first-bcg;
     > :nth-child(1) {
         border: 1px solid black;
-        align-self: center;
         text-align: center;
         .fa-music {
             font-size: 80px;
@@ -48,21 +47,37 @@ header {
     }
     .border {
         border: 1px dashed black;
-        align-self: center;
+        display: flex;
         text-align: center;
         font-family: 'Caveat', cursive;
+        font-weight: bold;
         font-size: 2em;
         color: $first-txt;
+        div {
+            width: 30%;
+            height: 3px;
+            margin: auto 35px;
+            background-color: $first-txt;
+        }
+        h3 {
+            width: 25%;
+            text-align: center;
+        }
     }
     > :last-child {
         border: 1px double black;
         display: flex;
+        width: 360px;
         align-self: center;
         font-family: 'Devonshire', cursive;
         font-size: 2em;
         color: $first-txt;
+        margin-bottom: 100px;
         .fa-music {
-            font-size: 20px;
+            border: 1px solid red;
+            font-size: 60px;
+            margin: 0 8px;
+            align-self: center;
         }     
     }
 }
@@ -76,6 +91,9 @@ ul {
         justify-content: space-between;
         font-size: 2.1em;
         padding: 0 90px;
+    }
+    span {
+        font-weight: bold;
     }
 }
 

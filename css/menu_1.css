@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Devonshire&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 /* CSS BODY */
 body {
   margin: auto;
@@ -27,7 +27,6 @@ header h1 {
 }
 .menu > :nth-child(1) {
   border: 1px solid black;
-  align-self: center;
   text-align: center;
 }
 .menu > :nth-child(1) .fa-music {
@@ -41,22 +40,42 @@ header h1 {
 }
 .menu .border {
   border: 1px dashed black;
-  align-self: center;
+  display: flex;
   text-align: center;
   font-family: "Caveat", cursive;
+  font-weight: bold;
   font-size: 2em;
   color: #3e2723;
+}
+.menu .border div {
+  width: 30%;
+  height: 3px;
+  margin: auto 35px;
+  background-color: #3e2723;
+}
+.menu .border h3 {
+  width: 25%;
+  text-align: center;
 }
 .menu > :last-child {
   border: 1px double black;
   display: flex;
+  width: 360px;
   align-self: center;
   font-family: "Devonshire", cursive;
   font-size: 2em;
   color: #3e2723;
+  margin-bottom: 100px;
 }
 .menu > :last-child .fa-music {
-  font-size: 20px;
+  border: 1px solid red;
+  font-size: 60px;
+  margin: 0 8px;
+  align-self: center;
+  background-image: linear-gradient(to right, #b41660, #ff9100);
+  background-clip: img;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 ul {
@@ -69,6 +88,9 @@ ul li {
   justify-content: space-between;
   font-size: 2.1em;
   padding: 0 90px;
+}
+ul span {
+  font-weight: bold;
 }
 
 /* CSS FOOTER */
