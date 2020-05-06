@@ -1,3 +1,4 @@
+        /* CSS BODY - HEADER - FOOTER */
 body {
     width: 100%;
 }
@@ -9,6 +10,14 @@ header {
     }
 }
 
+footer {
+    a {
+        font-size: 2em;
+        padding: 10px;
+    }
+}
+
+        /* CSS INDEX */
 .container {
     width: auto;
     > :nth-child(1) {
@@ -70,9 +79,12 @@ header {
     }
 }
 
-footer {
-    a {
-        font-size: 2em;
-        padding: 10px;
+        /* CSS MENU */
+ul{
+    li{
+        margin-bottom: 10px;
+        span {
+            margin-left: 20px;
+        }
     }
 }
