@@ -52,5 +52,42 @@ header {
         font-family: 'Caveat', cursive;
         font-size: 2em;
     }
+    > :last-child {
+        border: 1px double black;
+        display: flex;
+        align-self: center;
+        font-family: 'Devonshire', cursive;
+        font-size: 2em;       
+    }
 }
             
+ul {
+    font-family: 'Caveat', cursive;
+    font-weight: normal;
+    padding: 20px 0;
+    li {
+        display: flex;
+        justify-content: space-between;
+        font-size: 2.1em;
+        padding: 0 90px;
+    }
+}
+
+        /* CSS FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: $background-color;
+  font-family: "Montserrat", cursive;
+  padding: 20px;
+  border-top: 1px solid #94eb31;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  a {
+      color: #fbd115;
+      font-size: 1.5em;
+      text-decoration: none;
+  }
+}
