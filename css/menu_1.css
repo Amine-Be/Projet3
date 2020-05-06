@@ -51,6 +51,7 @@ header h1 {
   width: 30%;
   height: 3px;
   margin: auto 35px;
+  padding-left: 25px;
   background-color: #3e2723;
 }
 .menu .border h3 {
