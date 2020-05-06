@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Devonshire&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
 /* CSS BODY */
 body {
   margin: auto;
@@ -17,6 +18,32 @@ header h1 {
   font-family: "Montserrat", cursive;
   color: #faca47;
   letter-spacing: -4px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #fddcda;
+}
+.menu > :nth-child(1) {
+  border: 1px solid black;
+  align-self: center;
+  text-align: center;
+}
+.menu > :nth-child(1) .fa-music {
+  font-size: 80px;
+  margin-top: 45px;
+}
+.menu > :nth-child(1) h1 {
+  font-family: "Devonshire", cursive;
+  font-size: 4em;
+}
+.menu .border {
+  border: 1px dashed black;
+  align-self: center;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 2em;
 }
 
 /*# sourceMappingURL=menu_1.css.map */
