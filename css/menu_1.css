@@ -37,6 +37,7 @@ header h1 {
 .menu > :nth-child(1) h1 {
   font-family: "Devonshire", cursive;
   font-size: 4em;
+  color: #3e2723;
 }
 .menu .border {
   border: 1px dashed black;
@@ -44,6 +45,7 @@ header h1 {
   text-align: center;
   font-family: "Caveat", cursive;
   font-size: 2em;
+  color: #3e2723;
 }
 .menu > :last-child {
   border: 1px double black;
@@ -51,11 +53,15 @@ header h1 {
   align-self: center;
   font-family: "Devonshire", cursive;
   font-size: 2em;
+  color: #3e2723;
+}
+.menu > :last-child .fa-music {
+  font-size: 20px;
 }
 
 ul {
   font-family: "Caveat", cursive;
-  font-weight: normal;
+  color: #3e2723;
   padding: 20px 0;
 }
 ul li {

@@ -43,6 +43,7 @@ header {
         h1 {
             font-family: 'Devonshire', cursive;
             font-size: 4em;
+            color: $first-txt;
         }
     }
     .border {
@@ -51,19 +52,24 @@ header {
         text-align: center;
         font-family: 'Caveat', cursive;
         font-size: 2em;
+        color: $first-txt;
     }
     > :last-child {
         border: 1px double black;
         display: flex;
         align-self: center;
         font-family: 'Devonshire', cursive;
-        font-size: 2em;       
+        font-size: 2em;
+        color: $first-txt;
+        .fa-music {
+            font-size: 20px;
+        }     
     }
 }
             
 ul {
     font-family: 'Caveat', cursive;
-    font-weight: normal;
+    color: $first-txt;
     padding: 20px 0;
     li {
         display: flex;
