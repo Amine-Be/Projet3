@@ -5,8 +5,8 @@ body {
 
 header {
     width: auto;
-    h2 {
-      font-size: 1.5em;  
+    h1 {
+      font-size: 2.5em;  
     }
     
 }
@@ -52,6 +52,7 @@ footer {
         font-size: 1.5em;
     }
     > :last-child {
+        width: auto;
         font-size: 1.5em;
     }
 }
