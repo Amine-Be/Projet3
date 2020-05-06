@@ -72,10 +72,6 @@ header h1 {
   font-size: 60px;
   margin: 0 8px;
   align-self: center;
-  background-image: linear-gradient(to right, #b41660, #ff9100);
-  background-clip: img;
-  -webkit-background-clip: text;
-  color: transparent;
 }
 
 ul {
