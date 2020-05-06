@@ -1,8 +1,11 @@
 body {
   width: 1140px;
-  margin: 0 auto footer;
-  margin-width: 1140px;
-  margin-margin: 0 auto;
+  margin: 0 auto;
+}
+
+footer {
+  width: 1140px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=extra_large.css.map */
