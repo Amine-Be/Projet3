@@ -32,7 +32,7 @@ header {
     display: flex;
     flex-direction: column;
     background-color: $first-bcg;
-    > :nth-child(1) {
+    .title_big {
         border: 1px solid black;
         text-align: center;
         .fa-music {
@@ -65,7 +65,7 @@ header {
             text-align: center;
         }
     }
-    > :last-child {
+    .title_small {
         border: 1px double black;
         display: flex;
         width: 360px;
@@ -86,11 +86,13 @@ header {
 ul {
     font-family: 'Caveat', cursive;
     color: $first-txt;
+    margin: 35px 0 90px 0;
     padding: 20px 0;
     li {
         display: flex;
         justify-content: space-between;
-        font-size: 2.1em;
+        font-size: 1.5em;
+        margin-bottom: 10px;
         padding: 0 90px;
     }
     span {

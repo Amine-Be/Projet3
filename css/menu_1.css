@@ -25,15 +25,15 @@ header h1 {
   flex-direction: column;
   background-color: #fddcda;
 }
-.menu > :nth-child(1) {
+.menu .title_big {
   border: 1px solid black;
   text-align: center;
 }
-.menu > :nth-child(1) .fa-music {
+.menu .title_big .fa-music {
   font-size: 80px;
   margin-top: 45px;
 }
-.menu > :nth-child(1) h1 {
+.menu .title_big h1 {
   font-family: "Devonshire", cursive;
   font-size: 4em;
   color: #3e2723;
@@ -58,7 +58,7 @@ header h1 {
   width: 25%;
   text-align: center;
 }
-.menu > :last-child {
+.menu .title_small {
   border: 1px double black;
   display: flex;
   width: 360px;
@@ -68,7 +68,7 @@ header h1 {
   color: #3e2723;
   margin-bottom: 100px;
 }
-.menu > :last-child .fa-music {
+.menu .title_small .fa-music {
   border: 1px solid red;
   font-size: 60px;
   margin: 0 8px;
@@ -78,12 +78,14 @@ header h1 {
 ul {
   font-family: "Caveat", cursive;
   color: #3e2723;
+  margin: 35px 0 90px 0;
   padding: 20px 0;
 }
 ul li {
   display: flex;
   justify-content: space-between;
-  font-size: 2.1em;
+  font-size: 1.5em;
+  margin-bottom: 10px;
   padding: 0 90px;
 }
 ul span {
