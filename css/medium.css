@@ -6,14 +6,6 @@ body {
 header {
   width: auto;
 }
-header h1 {
-  font-size: 4.5em;
-}
-
-footer a {
-  font-size: 2em;
-  padding: 10px;
-}
 
 /* CSS INDEX */
 .container {
@@ -68,9 +60,6 @@ footer a {
 }
 
 /* CSS MENU */
-ul li {
-  margin-bottom: 10px;
-}
 ul li span {
   margin-left: 20px;
 }
