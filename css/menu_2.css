@@ -14,10 +14,152 @@ header {
   border-bottom: 2px solid #9fcc6b;
 }
 header h1 {
-  font-size: 2.8em;
+  font-size: 2.5em;
   font-family: "Montserrat", cursive;
   color: #faca47;
   letter-spacing: -4px;
+}
+
+/* CSS MENU */
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff9ea;
+}
+.menu h1 {
+  font-family: "Croissant One", cursive;
+  font-size: 2.7em;
+  text-align: center;
+  background: linear-gradient(to right, #d77600, #4725a0);
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 80px 0;
+}
+.menu > :nth-child(2) {
+  border: 1px dashed black;
+  display: flex;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #d77600;
+}
+.menu > :nth-child(2) div {
+  width: 28%;
+  height: 3px;
+  margin: auto 35px;
+  padding-left: 25px;
+  background-color: #d77600;
+}
+.menu > :nth-child(2) h3 {
+  width: 25%;
+  text-align: center;
+}
+.menu > :nth-child(3) {
+  font-family: "Playfair Display", serif;
+  color: #d77600;
+  padding: 20px 0;
+}
+.menu > :nth-child(3) li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 0 90px;
+}
+.menu > :nth-child(3) span {
+  font-weight: bold;
+}
+.menu > :nth-child(4) {
+  border: 1px solid black;
+  display: flex;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #9C27B0;
+}
+.menu > :nth-child(4) div {
+  width: 28%;
+  height: 3px;
+  margin: auto 35px;
+  padding-left: 25px;
+  background: #9C27B0;
+}
+.menu > :nth-child(4) h3 {
+  width: 25%;
+  text-align: center;
+}
+.menu > :nth-child(5) {
+  font-family: "Playfair Display", serif;
+  color: #9C27B0;
+  padding: 20px 0;
+}
+.menu > :nth-child(5) li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 0 90px;
+}
+.menu > :nth-child(5) span {
+  font-weight: bold;
+}
+.menu > :nth-child(6) {
+  border: 1px solid black;
+  display: flex;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #4725a0;
+}
+.menu > :nth-child(6) div {
+  width: 28%;
+  height: 3px;
+  margin: auto 35px;
+  padding-left: 25px;
+  background: #4725a0;
+}
+.menu > :nth-child(6) h3 {
+  width: 25%;
+  text-align: center;
+}
+.menu > :nth-child(7) {
+  font-family: "Playfair Display", serif;
+  color: #4725a0;
+  margin-bottom: 90px;
+  padding: 20px 0;
+}
+.menu > :nth-child(7) li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 0 90px;
+}
+.menu > :nth-child(7) span {
+  font-weight: bold;
+}
+
+/* CSS FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #2d9c65;
+  font-family: "Montserrat", cursive;
+  padding: 20px;
+  border-top: 1px solid #94eb31;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+footer a {
+  color: #fbd115;
+  font-size: 1.5em;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=menu_2.css.map */
