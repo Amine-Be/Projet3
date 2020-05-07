@@ -47,7 +47,7 @@ header {
         color: transparent;
         margin: 80px 0;
     }
-    > :nth-child(2) {
+    > :nth-child(2) {           //* border
         border: 1px dashed black;
         display: flex;
         text-align: center;
@@ -67,7 +67,7 @@ header {
             text-align: center;
         }
     }
-    > :nth-child(3) {
+    > :nth-child(3) {           //* ul
         font-family: 'Playfair Display', serif;
         color: #d77600;
         margin: 35px 0 90px 0;
@@ -83,7 +83,7 @@ header {
             font-weight: bold;
         }
     }
-    > :nth-child(4) {
+    > :nth-child(4) {           //* border
         border: 1px solid black;
         display: flex;
         text-align: center;
@@ -103,7 +103,7 @@ header {
             text-align: center;
         }
     }
-    > :nth-child(5) {
+    > :nth-child(5) {           //* ul
         font-family: 'Playfair Display', serif;
         color: #9C27B0;
         margin: 35px 0 90px 0;
@@ -120,7 +120,7 @@ header {
         }
 
     }
-    > :nth-child(6) {
+    > :nth-child(6) {           //* border
         border: 1px solid black;
         display: flex;
         text-align: center;
@@ -140,7 +140,7 @@ header {
             text-align: center;
         }
     }
-    > :nth-child(7) {
+    > :nth-child(7) {           //* ul
         font-family: 'Playfair Display', serif;
         color: #4725a0;
         margin: 35px 0 90px 0;
