@@ -57,6 +57,90 @@ header h1 {
   text-align: center;
   font-weight: normal;
 }
+.container_menu > :nth-child(3) {
+  font-family: "Caveat", cursive;
+  font-weight: normal;
+  margin: 35px 0 90px 0;
+  padding: 20px;
+}
+.container_menu > :nth-child(3) li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 0 90px;
+}
+.container_menu > :nth-child(3) span {
+  font-weight: bold;
+}
+.container_menu > :nth-child(4) {
+  display: flex;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 1.5em;
+}
+.container_menu > :nth-child(4) hr {
+  width: 28%;
+  height: 3px;
+  margin: auto 35px;
+  padding-left: 25px;
+  background: #1976D2;
+}
+.container_menu > :nth-child(4) h3 {
+  width: 35%;
+  text-align: center;
+  font-weight: normal;
+}
+.container_menu > :nth-child(5) {
+  font-family: "Caveat", cursive;
+  font-weight: normal;
+  margin: 35px 0 90px 0;
+  padding: 20px;
+}
+.container_menu > :nth-child(5) li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 0 90px;
+}
+.container_menu > :nth-child(5) span {
+  font-weight: bold;
+}
+.container_menu > :nth-child(6) {
+  display: flex;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 1.5em;
+}
+.container_menu > :nth-child(6) hr {
+  width: 28%;
+  height: 3px;
+  margin: auto 35px;
+  padding-left: 25px;
+  background: #03A9F4;
+}
+.container_menu > :nth-child(6) h3 {
+  width: 35%;
+  text-align: center;
+  font-weight: normal;
+}
+.container_menu > :nth-child(7) {
+  font-family: "Caveat", cursive;
+  font-weight: normal;
+  margin: 35px 0 90px 0;
+  padding: 20px;
+}
+.container_menu > :nth-child(7) li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 0 90px;
+}
+.container_menu > :nth-child(7) span {
+  font-weight: bold;
+}
 
 /* CSS FOOTER */
 footer {
