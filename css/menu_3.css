@@ -20,6 +20,44 @@ header h1 {
   letter-spacing: -4px;
 }
 
+/* CSS MENU */
+.container_menu {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #eef0f2;
+}
+.container_menu h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3.5em;
+  text-align: center;
+  background: linear-gradient(to right, #1A237E, #03A9F4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 80px 0;
+}
+.container_menu > :nth-child(2) {
+  display: flex;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 1.5em;
+}
+.container_menu > :nth-child(2) hr {
+  width: 28%;
+  height: 3px;
+  margin: auto 35px;
+  padding-left: 25px;
+  background: #1A237E;
+}
+.container_menu > :nth-child(2) h3 {
+  width: 35%;
+  text-align: center;
+  font-weight: normal;
+}
+
 /* CSS FOOTER */
 footer {
   display: flex;
