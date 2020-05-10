@@ -23,7 +23,11 @@ footer {
 }
 
 /* CSS MENUS */
-.menu h1 {
+.container_menu {
+  width: auto;
+  margin: 65px;
+}
+.container_menu h1 {
   font-size: 2.5em;
 }
 
