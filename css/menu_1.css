@@ -20,25 +20,25 @@ header h1 {
   letter-spacing: -4px;
 }
 
-.menu {
+.container_menu {
   display: flex;
   flex-direction: column;
   background-color: #fddcda;
 }
-.menu .title_big {
+.container_menu .title_big {
   border: 1px solid black;
   text-align: center;
 }
-.menu .title_big .fa-music {
+.container_menu .title_big .fa-music {
   font-size: 80px;
   margin-top: 45px;
 }
-.menu .title_big h1 {
+.container_menu .title_big h1 {
   font-family: "Devonshire", cursive;
   font-size: 4em;
   color: #3e2723;
 }
-.menu .border {
+.container_menu .border {
   border: 1px dashed black;
   display: flex;
   text-align: center;
@@ -47,18 +47,18 @@ header h1 {
   font-size: 2em;
   color: #3e2723;
 }
-.menu .border div {
+.container_menu .border div {
   width: 30%;
   height: 3px;
   margin: auto 35px;
   padding-left: 25px;
   background-color: #3e2723;
 }
-.menu .border h3 {
+.container_menu .border h3 {
   width: 25%;
   text-align: center;
 }
-.menu .title_small {
+.container_menu .title_small {
   border: 1px double black;
   display: flex;
   width: 360px;
@@ -68,7 +68,7 @@ header h1 {
   color: #3e2723;
   margin-bottom: 100px;
 }
-.menu .title_small .fa-music {
+.container_menu .title_small .fa-music {
   border: 1px solid red;
   font-size: 60px;
   margin: 0 8px;
