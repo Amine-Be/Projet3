@@ -45,12 +45,18 @@ header h1 {
   font-family: "Caveat", cursive;
   font-size: 1.5em;
 }
-.container_menu > :nth-child(2) hr {
+.container_menu > :nth-child(2) div {
   width: 28%;
   height: 3px;
   margin: auto 35px;
   padding-left: 25px;
-  background: #1A237E;
+  border-bottom: 3px solid #1A237E;
+}
+.container_menu > :nth-child(2) .border_left {
+  border-radius: 0% 10%/0% 100%;
+}
+.container_menu > :nth-child(2) .border_right {
+  border-radius: 10% 0%/100% 0%;
 }
 .container_menu > :nth-child(2) h3 {
   width: 35%;
@@ -79,12 +85,18 @@ header h1 {
   font-family: "Caveat", cursive;
   font-size: 1.5em;
 }
-.container_menu > :nth-child(4) hr {
+.container_menu > :nth-child(4) div {
   width: 28%;
   height: 3px;
   margin: auto 35px;
   padding-left: 25px;
-  background: #1976D2;
+  border-bottom: 3px solid #1976D2;
+}
+.container_menu > :nth-child(4) .border_left {
+  border-radius: 0% 10%/0% 100%;
+}
+.container_menu > :nth-child(4) .border_right {
+  border-radius: 10% 0%/100% 0%;
 }
 .container_menu > :nth-child(4) h3 {
   width: 35%;
@@ -113,12 +125,18 @@ header h1 {
   font-family: "Caveat", cursive;
   font-size: 1.5em;
 }
-.container_menu > :nth-child(6) hr {
+.container_menu > :nth-child(6) div {
   width: 28%;
   height: 3px;
   margin: auto 35px;
   padding-left: 25px;
-  background: #03A9F4;
+  border-bottom: 3px solid #03A9F4;
+}
+.container_menu > :nth-child(6) .border_left {
+  border-radius: 0% 10%/0% 100%;
+}
+.container_menu > :nth-child(6) .border_right {
+  border-radius: 10% 0%/100% 0%;
 }
 .container_menu > :nth-child(6) h3 {
   width: 35%;

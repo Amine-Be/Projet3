@@ -54,12 +54,18 @@ header {
         text-align: center;
         font-family: 'Caveat', cursive;
         font-size: 1.5em;
-        hr {
+        div {
             width: 28%;
             height: 3px;
             margin: auto 35px;
             padding-left: 25px;
-            background: $first-bdr;
+            border-bottom: 3px solid $first-bdr;
+        }
+        .border_left {
+            border-radius: 0% 10% / 0% 100%;
+        }
+        .border_right {
+            border-radius: 10% 0% / 100% 0%;
         }
         h3 {
             width: 35%;
@@ -88,13 +94,20 @@ header {
         text-align: center;
         font-family: 'Caveat', cursive;
         font-size: 1.5em;
-        hr {
+        div {
             width: 28%;
             height: 3px;
             margin: auto 35px;
             padding-left: 25px;
-            background: $second-bdr;
+            border-bottom: 3px solid $second-bdr;
         }
+        .border_left {
+            border-radius: 0% 10% / 0% 100%;
+        }
+        .border_right {
+            border-radius: 10% 0% / 100% 0%;
+        }
+
         h3 {
             width: 35%;
             text-align: center;
@@ -122,18 +135,26 @@ header {
         text-align: center;
         font-family: 'Caveat', cursive;
         font-size: 1.5em;
-        hr {
+        div {
             width: 28%;
             height: 3px;
             margin: auto 35px;
             padding-left: 25px;
-            background: $third-bdr;
+            border-bottom: 3px solid $third-bdr;
         }
+        .border_left {
+            border-radius: 0% 10% / 0% 100%;
+        }
+        .border_right {
+            border-radius: 10% 0% / 100% 0%;
+        }
+
         h3 {
             width: 35%;
             text-align: center;
             font-weight: normal;
         }
+        
     }
 
     > :nth-child(7) {               //* css ul
