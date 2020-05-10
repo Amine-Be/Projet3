@@ -36,7 +36,10 @@ header {
 .container_menu {
     display: flex;
     flex-direction: column;
+    width: 800px;
+    margin: 100px auto;
     background-color: $second-bcg;
+    box-shadow: 0 0 13px #d3d3d3;
     h1 {
         font-family: 'Croissant One', cursive;
         font-size: 2.7em;
@@ -48,7 +51,6 @@ header {
         margin: 80px 0;
     }
     > :nth-child(2) {           //* border
-        border: 1px dashed black;
         display: flex;
         text-align: center;
         font-family: 'Playfair Display', serif;
@@ -57,14 +59,22 @@ header {
         color: #d77600;
         div {
             width: 30%;
-            height: 3px;
-            margin: auto 35px;
-            padding-left: 25px;
+            height: 50px;
+            margin: auto 20px;
             background-color: #d77600;
         }
+        .border_left {
+            clip-path: polygon(82% 43%, 100% 50%, 82% 57%, 0% 50%);
+            padding-right: 25px;
+        }
+        .border_right {
+            clip-path: polygon(18% 43%, 100% 50%, 18% 57%, 0% 50%);
+            padding-left: 25px;
+        }
         h3 {
-            width: 25%;
+            width: auto;
             text-align: center;
+            font-size: 1.3em;
         }
     }
     > :nth-child(3) {           //* ul
@@ -75,7 +85,7 @@ header {
         li {
             display: flex;
             justify-content: space-between;
-            font-size: 1.5em;
+            font-size: 1.2em;
             margin-bottom: 10px;
             padding: 0 90px;
         }
@@ -84,7 +94,6 @@ header {
         }
     }
     > :nth-child(4) {           //* border
-        border: 1px solid black;
         display: flex;
         text-align: center;
         font-family: 'Playfair Display', serif;
@@ -93,14 +102,22 @@ header {
         color: #9C27B0;
         div {
             width: 30%;
-            height: 3px;
-            margin: auto 35px;
-            padding-left: 25px;
+            height: 50px;
+            margin: auto 20px;
             background: #9C27B0;
         }
+        .border_left {
+            clip-path: polygon(82% 43%, 100% 50%, 82% 57%, 0% 50%);
+            padding-right: 25px;
+        }
+        .border_right {
+            clip-path: polygon(18% 43%, 100% 50%, 18% 57%, 0% 50%);
+            padding-left: 25px;
+        }
         h3 {
-            width: 25%;
+            width: auto;
             text-align: center;
+            font-size: 1.3em;
         }
     }
     > :nth-child(5) {           //* ul
@@ -111,7 +128,7 @@ header {
         li {
             display: flex;
             justify-content: space-between;
-            font-size: 1.5em;
+            font-size: 1.2em;
             margin-bottom: 10px;
             padding: 0 90px;
         }
@@ -121,7 +138,6 @@ header {
 
     }
     > :nth-child(6) {           //* border
-        border: 1px solid black;
         display: flex;
         text-align: center;
         font-family: 'Playfair Display', serif;
@@ -130,14 +146,22 @@ header {
         color: #4725a0;
         div {
             width: 30%;
-            height: 3px;
-            margin: auto 35px;
-            padding-left: 25px;
+            height: 50px;
+            margin: auto 20px;
             background: #4725a0;
         }
+        .border_left {
+            clip-path: polygon(82% 43%, 100% 50%, 82% 57%, 0% 50%);
+            padding-right: 25px;
+        }
+        .border_right {
+            clip-path: polygon(18% 43%, 100% 50%, 18% 57%, 0% 50%);
+            padding-left: 25px;
+        }
         h3 {
-            width: 25%;
+            width: auto;
             text-align: center;
+            font-size: 1.3em;
         }
     }
     > :nth-child(7) {           //* ul
@@ -148,7 +172,7 @@ header {
         li {
             display: flex;
             justify-content: space-between;
-            font-size: 1.5em;
+            font-size: 1.2em;
             margin-bottom: 10px;
             padding: 0 90px;
         }

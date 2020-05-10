@@ -24,7 +24,10 @@ header h1 {
 .container_menu {
   display: flex;
   flex-direction: column;
+  width: 800px;
+  margin: 100px auto;
   background-color: #fff9ea;
+  box-shadow: 0 0 13px #d3d3d3;
 }
 .container_menu h1 {
   font-family: "Croissant One", cursive;
@@ -37,7 +40,6 @@ header h1 {
   margin: 80px 0;
 }
 .container_menu > :nth-child(2) {
-  border: 1px dashed black;
   display: flex;
   text-align: center;
   font-family: "Playfair Display", serif;
@@ -47,14 +49,22 @@ header h1 {
 }
 .container_menu > :nth-child(2) div {
   width: 30%;
-  height: 3px;
-  margin: auto 35px;
-  padding-left: 25px;
+  height: 50px;
+  margin: auto 20px;
   background-color: #d77600;
 }
+.container_menu > :nth-child(2) .border_left {
+  clip-path: polygon(82% 43%, 100% 50%, 82% 57%, 0% 50%);
+  padding-right: 25px;
+}
+.container_menu > :nth-child(2) .border_right {
+  clip-path: polygon(18% 43%, 100% 50%, 18% 57%, 0% 50%);
+  padding-left: 25px;
+}
 .container_menu > :nth-child(2) h3 {
-  width: 25%;
+  width: auto;
   text-align: center;
+  font-size: 1.3em;
 }
 .container_menu > :nth-child(3) {
   font-family: "Playfair Display", serif;
@@ -65,7 +75,7 @@ header h1 {
 .container_menu > :nth-child(3) li {
   display: flex;
   justify-content: space-between;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-bottom: 10px;
   padding: 0 90px;
 }
@@ -73,7 +83,6 @@ header h1 {
   font-weight: bold;
 }
 .container_menu > :nth-child(4) {
-  border: 1px solid black;
   display: flex;
   text-align: center;
   font-family: "Playfair Display", serif;
@@ -83,14 +92,22 @@ header h1 {
 }
 .container_menu > :nth-child(4) div {
   width: 30%;
-  height: 3px;
-  margin: auto 35px;
-  padding-left: 25px;
+  height: 50px;
+  margin: auto 20px;
   background: #9C27B0;
 }
+.container_menu > :nth-child(4) .border_left {
+  clip-path: polygon(82% 43%, 100% 50%, 82% 57%, 0% 50%);
+  padding-right: 25px;
+}
+.container_menu > :nth-child(4) .border_right {
+  clip-path: polygon(18% 43%, 100% 50%, 18% 57%, 0% 50%);
+  padding-left: 25px;
+}
 .container_menu > :nth-child(4) h3 {
-  width: 25%;
+  width: auto;
   text-align: center;
+  font-size: 1.3em;
 }
 .container_menu > :nth-child(5) {
   font-family: "Playfair Display", serif;
@@ -101,7 +118,7 @@ header h1 {
 .container_menu > :nth-child(5) li {
   display: flex;
   justify-content: space-between;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-bottom: 10px;
   padding: 0 90px;
 }
@@ -109,7 +126,6 @@ header h1 {
   font-weight: bold;
 }
 .container_menu > :nth-child(6) {
-  border: 1px solid black;
   display: flex;
   text-align: center;
   font-family: "Playfair Display", serif;
@@ -119,14 +135,22 @@ header h1 {
 }
 .container_menu > :nth-child(6) div {
   width: 30%;
-  height: 3px;
-  margin: auto 35px;
-  padding-left: 25px;
+  height: 50px;
+  margin: auto 20px;
   background: #4725a0;
 }
+.container_menu > :nth-child(6) .border_left {
+  clip-path: polygon(82% 43%, 100% 50%, 82% 57%, 0% 50%);
+  padding-right: 25px;
+}
+.container_menu > :nth-child(6) .border_right {
+  clip-path: polygon(18% 43%, 100% 50%, 18% 57%, 0% 50%);
+  padding-left: 25px;
+}
 .container_menu > :nth-child(6) h3 {
-  width: 25%;
+  width: auto;
   text-align: center;
+  font-size: 1.3em;
 }
 .container_menu > :nth-child(7) {
   font-family: "Playfair Display", serif;
@@ -137,7 +161,7 @@ header h1 {
 .container_menu > :nth-child(7) li {
   display: flex;
   justify-content: space-between;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-bottom: 10px;
   padding: 0 90px;
 }
