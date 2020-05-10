@@ -164,13 +164,13 @@ footer {
   background: $background-color;
   font-family: "Montserrat", cursive;
   padding: 20px;
-  border-top: 1px solid #94eb31;
+  border-top: 2px solid #9fcc6b;
   position: fixed;
   right: 0;
   left: 0;
   bottom: 0;
   a {
-      color: #fbd115;
+      color: $color-txt;
       font-size: 1.5em;
       text-decoration: none;
   }
