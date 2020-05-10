@@ -1,5 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+/* CSS BODY */
+body {
+  margin: auto;
+}
+
+/* CSS HEADER */
+header {
+  text-align: center;
+  padding: 20px;
+  background: #2d9c65;
+  border-bottom: 2px solid #9FCC6B;
+}
+header h1 {
+  font-size: 2.8em;
+  font-family: "Montserrat", cursive;
+  color: #faca47;
+  letter-spacing: -4px;
+}
+
+/* CSS FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d9c65;
+  font-family: "Montserrat", cursive;
+  padding: 20px;
+  border-top: 2px solid #9FCC6B;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+footer a {
+  color: #faca47;
+  font-size: 1.5em;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=menu_4.css.map */
