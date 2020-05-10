@@ -23,10 +23,12 @@ header h1 {
 .container_menu {
   display: flex;
   flex-direction: column;
+  width: 800px;
+  margin: 100px auto;
   background-color: #fddcda;
+  box-shadow: 0 0 13px #d3d3d3;
 }
 .container_menu .title_big {
-  border: 1px solid black;
   text-align: center;
 }
 .container_menu .title_big .fa-music {
@@ -39,12 +41,11 @@ header h1 {
   color: #3e2723;
 }
 .container_menu .border {
-  border: 1px dashed black;
   display: flex;
   text-align: center;
   font-family: "Caveat", cursive;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.5em;
   color: #3e2723;
 }
 .container_menu .border div {
@@ -59,7 +60,6 @@ header h1 {
   text-align: center;
 }
 .container_menu .title_small {
-  border: 1px double black;
   display: flex;
   width: 360px;
   align-self: center;
@@ -69,7 +69,6 @@ header h1 {
   margin-bottom: 100px;
 }
 .container_menu .title_small .fa-music {
-  border: 1px solid red;
   font-size: 60px;
   margin: 0 8px;
   align-self: center;
@@ -99,14 +98,14 @@ footer {
   background: #2d9c65;
   font-family: "Montserrat", cursive;
   padding: 20px;
-  border-top: 1px solid #94eb31;
+  border-top: 2px solid #9fcc6b;
   position: fixed;
   right: 0;
   left: 0;
   bottom: 0;
 }
 footer a {
-  color: #fbd115;
+  color: #faca47;
   font-size: 1.5em;
   text-decoration: none;
 }
