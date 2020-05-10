@@ -36,9 +36,9 @@ header {
     display: flex;
     flex-direction: column;
     width: 800px;
-    margin: 50px auto;
-    padding: 25px;
+    margin: 100px auto;
     background: $third-bcg;
+    box-shadow: 0 0 13px #d3d3d3;
     h1 {
         font-family: 'Dancing Script', cursive;
         font-size: 3.5em;
@@ -59,7 +59,7 @@ header {
             height: 3px;
             margin: auto 35px;
             padding-left: 25px;
-            border-bottom: 3px solid $first-bdr;
+            border-bottom: 4px solid $first-bdr;
         }
         .border_left {
             border-radius: 0% 10% / 0% 100%;
@@ -99,7 +99,7 @@ header {
             height: 3px;
             margin: auto 35px;
             padding-left: 25px;
-            border-bottom: 3px solid $second-bdr;
+            border-bottom: 4px solid $second-bdr;
         }
         .border_left {
             border-radius: 0% 10% / 0% 100%;
@@ -140,7 +140,7 @@ header {
             height: 3px;
             margin: auto 35px;
             padding-left: 25px;
-            border-bottom: 3px solid $third-bdr;
+            border-bottom: 4px solid $third-bdr;
         }
         .border_left {
             border-radius: 0% 10% / 0% 100%;

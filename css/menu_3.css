@@ -25,9 +25,9 @@ header h1 {
   display: flex;
   flex-direction: column;
   width: 800px;
-  margin: 50px auto;
-  padding: 25px;
+  margin: 100px auto;
   background: #eef0f2;
+  box-shadow: 0 0 13px #d3d3d3;
 }
 .container_menu h1 {
   font-family: "Dancing Script", cursive;
@@ -50,7 +50,7 @@ header h1 {
   height: 3px;
   margin: auto 35px;
   padding-left: 25px;
-  border-bottom: 3px solid #1A237E;
+  border-bottom: 4px solid #1A237E;
 }
 .container_menu > :nth-child(2) .border_left {
   border-radius: 0% 10%/0% 100%;
@@ -90,7 +90,7 @@ header h1 {
   height: 3px;
   margin: auto 35px;
   padding-left: 25px;
-  border-bottom: 3px solid #1976D2;
+  border-bottom: 4px solid #1976D2;
 }
 .container_menu > :nth-child(4) .border_left {
   border-radius: 0% 10%/0% 100%;
@@ -130,7 +130,7 @@ header h1 {
   height: 3px;
   margin: auto 35px;
   padding-left: 25px;
-  border-bottom: 3px solid #03A9F4;
+  border-bottom: 4px solid #03A9F4;
 }
 .container_menu > :nth-child(6) .border_left {
   border-radius: 0% 10%/0% 100%;
