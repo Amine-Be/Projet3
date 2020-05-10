@@ -18,33 +18,35 @@ footer a {
 .container {
   flex-direction: column;
   width: auto;
+  margin: auto;
 }
 .container article {
-  width: 75%;
+  width: 85%;
 }
 .container div {
-  width: 75%;
+  width: 85%;
 }
 .container div h2 {
   font-size: 1em;
-  margin-left: 5px;
+  margin-left: 25px;
 }
 
 /* RESPONSIVE - MENU */
-.menu {
+.container_menu {
   flex-direction: column;
   width: auto;
+  margin: 10px;
 }
-.menu .title_big .fa-music {
+.container_menu .title_big .fa-music {
   font-size: 45px;
 }
-.menu .title_big h1 {
+.container_menu .title_big h1 {
   font-size: 2.7em;
 }
-.menu .border {
+.container_menu .border {
   font-size: 1.5em;
 }
-.menu .title_small {
+.container_menu .title_small {
   width: auto;
   font-size: 1.2em;
 }

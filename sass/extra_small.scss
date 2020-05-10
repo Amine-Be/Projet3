@@ -19,23 +19,25 @@ footer {
 .container {
     flex-direction: column;
     width: auto;
+    margin: auto;
     article {
-        width: 75%;
+        width: 85%;
     }
 
     div{
-        width: 75%;
+        width: 85%;
         h2 {
             font-size: 1em;
-            margin-left: 5px;
+            margin-left: 25px;
         }
     }
 }
 
         /* RESPONSIVE - MENU */
-.menu {
+.container_menu {
     flex-direction: column;
     width: auto;
+    margin: 10px;
     .title_big {
         .fa-music {
             font-size: 45px;
