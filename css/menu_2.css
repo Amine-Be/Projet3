@@ -21,12 +21,12 @@ header h1 {
 }
 
 /* CSS MENU */
-.menu {
+.container_menu {
   display: flex;
   flex-direction: column;
   background-color: #fff9ea;
 }
-.menu h1 {
+.container_menu h1 {
   font-family: "Croissant One", cursive;
   font-size: 2.7em;
   text-align: center;
@@ -36,7 +36,7 @@ header h1 {
   color: transparent;
   margin: 80px 0;
 }
-.menu > :nth-child(2) {
+.container_menu > :nth-child(2) {
   border: 1px dashed black;
   display: flex;
   text-align: center;
@@ -45,34 +45,34 @@ header h1 {
   font-size: 1.5em;
   color: #d77600;
 }
-.menu > :nth-child(2) div {
+.container_menu > :nth-child(2) div {
   width: 30%;
   height: 3px;
   margin: auto 35px;
   padding-left: 25px;
   background-color: #d77600;
 }
-.menu > :nth-child(2) h3 {
+.container_menu > :nth-child(2) h3 {
   width: 25%;
   text-align: center;
 }
-.menu > :nth-child(3) {
+.container_menu > :nth-child(3) {
   font-family: "Playfair Display", serif;
   color: #d77600;
   margin: 35px 0 90px 0;
   padding: 20px 0;
 }
-.menu > :nth-child(3) li {
+.container_menu > :nth-child(3) li {
   display: flex;
   justify-content: space-between;
   font-size: 1.5em;
   margin-bottom: 10px;
   padding: 0 90px;
 }
-.menu > :nth-child(3) span {
+.container_menu > :nth-child(3) span {
   font-weight: bold;
 }
-.menu > :nth-child(4) {
+.container_menu > :nth-child(4) {
   border: 1px solid black;
   display: flex;
   text-align: center;
@@ -81,34 +81,34 @@ header h1 {
   font-size: 1.5em;
   color: #9C27B0;
 }
-.menu > :nth-child(4) div {
+.container_menu > :nth-child(4) div {
   width: 30%;
   height: 3px;
   margin: auto 35px;
   padding-left: 25px;
   background: #9C27B0;
 }
-.menu > :nth-child(4) h3 {
+.container_menu > :nth-child(4) h3 {
   width: 25%;
   text-align: center;
 }
-.menu > :nth-child(5) {
+.container_menu > :nth-child(5) {
   font-family: "Playfair Display", serif;
   color: #9C27B0;
   margin: 35px 0 90px 0;
   padding: 20px 0;
 }
-.menu > :nth-child(5) li {
+.container_menu > :nth-child(5) li {
   display: flex;
   justify-content: space-between;
   font-size: 1.5em;
   margin-bottom: 10px;
   padding: 0 90px;
 }
-.menu > :nth-child(5) span {
+.container_menu > :nth-child(5) span {
   font-weight: bold;
 }
-.menu > :nth-child(6) {
+.container_menu > :nth-child(6) {
   border: 1px solid black;
   display: flex;
   text-align: center;
@@ -117,31 +117,31 @@ header h1 {
   font-size: 1.5em;
   color: #4725a0;
 }
-.menu > :nth-child(6) div {
+.container_menu > :nth-child(6) div {
   width: 30%;
   height: 3px;
   margin: auto 35px;
   padding-left: 25px;
   background: #4725a0;
 }
-.menu > :nth-child(6) h3 {
+.container_menu > :nth-child(6) h3 {
   width: 25%;
   text-align: center;
 }
-.menu > :nth-child(7) {
+.container_menu > :nth-child(7) {
   font-family: "Playfair Display", serif;
   color: #4725a0;
   margin: 35px 0 90px 0;
   padding: 20px 0;
 }
-.menu > :nth-child(7) li {
+.container_menu > :nth-child(7) li {
   display: flex;
   justify-content: space-between;
   font-size: 1.5em;
   margin-bottom: 10px;
   padding: 0 90px;
 }
-.menu > :nth-child(7) span {
+.container_menu > :nth-child(7) span {
   font-weight: bold;
 }
 
