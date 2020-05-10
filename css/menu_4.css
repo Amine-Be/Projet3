@@ -78,6 +78,84 @@ header h1 {
 .container_menu > :nth-child(3) span {
   font-weight: bold;
 }
+.container_menu > :nth-child(4) {
+  display: flex;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 1.5em;
+}
+.container_menu > :nth-child(4) div {
+  width: 28%;
+  height: 3px;
+  margin: auto 35px;
+  padding-left: 25px;
+}
+.container_menu > :nth-child(4) .border_left {
+  background: linear-gradient(to right, #388E3C, #B4ff5f);
+}
+.container_menu > :nth-child(4) .border_right {
+  background: linear-gradient(to left, #388E3C, #B4ff5f);
+}
+.container_menu > :nth-child(4) h3 {
+  width: 35%;
+  text-align: center;
+  font-weight: normal;
+}
+.container_menu > :nth-child(5) {
+  font-family: "Caveat", cursive;
+  font-weight: normal;
+  margin: 35px 0 90px 0;
+  padding: 20px;
+}
+.container_menu > :nth-child(5) li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 0 90px;
+}
+.container_menu > :nth-child(5) span {
+  font-weight: bold;
+}
+.container_menu > :nth-child(6) {
+  display: flex;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 1.5em;
+}
+.container_menu > :nth-child(6) div {
+  width: 28%;
+  height: 3px;
+  margin: auto 35px;
+  padding-left: 25px;
+}
+.container_menu > :nth-child(6) .border_left {
+  background: linear-gradient(to right, #388E3C, #B4ff5f);
+}
+.container_menu > :nth-child(6) .border_right {
+  background: linear-gradient(to left, #388E3C, #B4ff5f);
+}
+.container_menu > :nth-child(6) h3 {
+  width: 35%;
+  text-align: center;
+  font-weight: normal;
+}
+.container_menu > :nth-child(7) {
+  font-family: "Caveat", cursive;
+  font-weight: normal;
+  margin: 35px 0 90px 0;
+  padding: 20px;
+}
+.container_menu > :nth-child(7) li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 0 90px;
+}
+.container_menu > :nth-child(7) span {
+  font-weight: bold;
+}
 
 /* CSS FOOTER */
 footer {

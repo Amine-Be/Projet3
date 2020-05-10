@@ -87,6 +87,84 @@ header {
             font-weight: bold;
         }
     }
+    > :nth-child(4) {           //* css .border
+        display: flex;
+        text-align: center;
+        font-family: 'Caveat', cursive;
+        font-size: 1.5em;
+        div {
+            width: 28%;
+            height: 3px;
+            margin: auto 35px;
+            padding-left: 25px;
+        }
+        .border_left {
+            background: linear-gradient(to right, $first-gradient, $second-gradient);
+        }
+        .border_right {
+            background: linear-gradient(to left, $first-gradient, $second-gradient);
+        }
+        h3 {
+            width: 35%;
+            text-align: center;
+            font-weight: normal;
+        }
+    }
+    > :nth-child(5) {
+        font-family: 'Caveat', cursive;
+        font-weight: normal;
+        margin: 35px 0 90px 0;
+        padding: 20px;
+        li {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            padding: 0 90px;
+        }
+        span {
+            font-weight: bold;
+        }
+    }
+    > :nth-child(6) {           //* css .border
+        display: flex;
+        text-align: center;
+        font-family: 'Caveat', cursive;
+        font-size: 1.5em;
+        div {
+            width: 28%;
+            height: 3px;
+            margin: auto 35px;
+            padding-left: 25px;
+        }
+        .border_left {
+            background: linear-gradient(to right, $first-gradient, $second-gradient);
+        }
+        .border_right {
+            background: linear-gradient(to left, $first-gradient, $second-gradient);
+        }
+        h3 {
+            width: 35%;
+            text-align: center;
+            font-weight: normal;
+        }
+    }
+    > :nth-child(7) {
+        font-family: 'Caveat', cursive;
+        font-weight: normal;
+        margin: 35px 0 90px 0;
+        padding: 20px;
+        li {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            padding: 0 90px;
+        }
+        span {
+            font-weight: bold;
+        }
+    }
 }
 
         /* CSS FOOTER */
