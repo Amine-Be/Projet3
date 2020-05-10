@@ -20,6 +20,65 @@ header h1 {
   letter-spacing: -4px;
 }
 
+/* CSS MENU */
+.container_menu {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 100px auto;
+  background: #ffffff;
+  box-shadow: 0 0 13px #d3d3d3;
+}
+.container_menu h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 3.5em;
+  text-align: center;
+  background: linear-gradient(to right, #388E3C, #B4ff5f);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 80px 0;
+}
+.container_menu > :nth-child(2) {
+  display: flex;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 1.5em;
+}
+.container_menu > :nth-child(2) div {
+  width: 28%;
+  height: 3px;
+  margin: auto 35px;
+  padding-left: 25px;
+}
+.container_menu > :nth-child(2) .border_left {
+  background: linear-gradient(to right, #388E3C, #B4ff5f);
+}
+.container_menu > :nth-child(2) .border_right {
+  background: linear-gradient(to left, #388E3C, #B4ff5f);
+}
+.container_menu > :nth-child(2) h3 {
+  width: 35%;
+  text-align: center;
+  font-weight: normal;
+}
+.container_menu > :nth-child(3) {
+  font-family: "Caveat", cursive;
+  font-weight: normal;
+  margin: 35px 0 90px 0;
+  padding: 20px;
+}
+.container_menu > :nth-child(3) li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 0 90px;
+}
+.container_menu > :nth-child(3) span {
+  font-weight: bold;
+}
+
 /* CSS FOOTER */
 footer {
   display: flex;
