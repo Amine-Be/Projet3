@@ -34,7 +34,7 @@ header h1 {
   font-size: 3.5em;
   text-align: center;
   background: linear-gradient(to right, #1A237E, #03A9F4);
-  background-clip: text;
+  background-clip: content-box;
   -webkit-background-clip: text;
   color: transparent;
   margin: 80px 0;
