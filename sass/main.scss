@@ -55,6 +55,11 @@ header {
     text-align: center;
     a {
       text-decoration: none;
+      display: block;
+      transition: transform 400ms;
+      &:hover {
+        transform: scale(1.40);
+      }  
     }
   }
 
