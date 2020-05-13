@@ -18,7 +18,6 @@ footer a {
 .container {
   flex-direction: column;
   width: auto;
-  margin: auto;
 }
 .container article {
   width: 85%;
@@ -35,7 +34,7 @@ footer a {
 .container_menu {
   flex-direction: column;
   width: auto;
-  margin: 10px;
+  margin: 20px 20px 100px 20px;
 }
 .container_menu .title_big .fa-music {
   font-size: 45px;
@@ -56,6 +55,19 @@ ul li {
 }
 ul li span {
   margin-left: 10px;
+}
+
+/* RESPONSIVE LEGALES NOTICES */
+.container h2 {
+  font-size: 2.5em;
+}
+
+.container_legales_notices {
+  margin: 20px;
+}
+.container_legales_notices h3 {
+  margin-left: initial;
+  text-align: center;
 }
 
 /*# sourceMappingURL=extra_small.css.map */
