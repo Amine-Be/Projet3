@@ -1,0 +1,77 @@
+//* Fonts
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"); // Header & footer
+
+//* Variables
+$background-color: #2d9c65;
+$border-bcg: #9fcc6b;
+$color-txt: #faca47;
+
+            /* CSS BODY */
+body {
+    margin: auto;
+}
+
+            /* CSS HEADER */
+header {
+  background: $background-color;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 2px solid $border-bcg;
+  h1 {
+    font-size: 2.8em;
+    font-family: "Montserrat", cursive;
+    color: $color-txt;
+    letter-spacing: -4px;
+  }
+}
+
+            /* CSS CONTAINER */
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    margin: 50px auto 100px auto;
+    h2 {
+        font-size: 2.8em;
+        font-family: "Montserrat", cursive;
+        color: $color-txt;
+        text-shadow: 0 0 2px $border-bcg;
+        text-align: center;
+        margin-bottom: 75px;
+    }
+}
+
+.container_legales_notices {
+    background: $background-color;
+    border: 2px solid $border-bcg;
+    box-shadow: 0 0 13px 2px #d3d3d3;
+    font-size: 1em;
+    font-family: "Montserrat", cursive;
+    text-align: justify;
+    color: $color-txt;
+    padding: 25px;
+    h3 {
+        font-size: 1.5em;
+        text-decoration: underline;
+        margin-left: 15px;
+    }
+}
+
+            /* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: $background-color;
+  font-family: "Montserrat", cursive;
+  padding: 20px;
+  border-top: 2px solid $border-bcg;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  a {
+      color: $color-txt;
+      font-size: 1.5em;
+      text-decoration: none;
+  }
+}
