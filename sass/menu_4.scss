@@ -43,7 +43,7 @@ header {
         font-size: 3.5em;
         text-align: center;
         background: linear-gradient(to right, $first-gradient, $second-gradient);
-        background-clip: text;
+        background-clip: content-box;
         -webkit-background-clip: text;
         color: transparent;
         margin: 80px 0;
