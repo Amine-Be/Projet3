@@ -36,6 +36,9 @@ footer a {
   width: auto;
   margin: 20px 20px 100px 20px;
 }
+.container_menu h1 {
+  font-size: 2.2em;
+}
 .container_menu .title_big .fa-music {
   font-size: 45px;
 }
@@ -52,6 +55,7 @@ footer a {
 
 ul li {
   text-align: left;
+  padding: 0;
 }
 ul li span {
   margin-left: 10px;
