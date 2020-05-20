@@ -21,6 +21,8 @@ footer a {
 }
 .container article {
   width: 85%;
+  height: 100px;
+  padding: 150px 20px;
 }
 .container div {
   width: 85%;
@@ -46,18 +48,32 @@ footer a {
   font-size: 2.7em;
 }
 .container_menu .border {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 .container_menu .title_small {
   width: auto;
   font-size: 1.2em;
 }
 
-ul li {
+.container_menu > :nth-child(3) li {
   text-align: left;
-  padding: 0;
+  padding: 0 20px;
 }
-ul li span {
+.container_menu > :nth-child(3) li span {
+  margin-left: 10px;
+}
+.container_menu > :nth-child(5) li {
+  text-align: left;
+  padding: 0 20px;
+}
+.container_menu > :nth-child(5) li span {
+  margin-left: 10px;
+}
+.container_menu > :nth-child(7) li {
+  text-align: left;
+  padding: 0 20px;
+}
+.container_menu > :nth-child(7) li span {
   margin-left: 10px;
 }
 
