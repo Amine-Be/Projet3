@@ -10,7 +10,7 @@ body {
 header {
   background: #2d9c65;
   text-align: center;
-  padding: 20px;
+  padding: 5px;
   border-bottom: 2px solid #9fcc6b;
 }
 header h1 {
@@ -58,6 +58,22 @@ header h1 {
 .container_menu .border h3 {
   width: auto;
   text-align: center;
+}
+.container_menu .border h3::after {
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: left;
+  width: 100%;
+  height: 1px;
+  background-color: #3e2723;
+  transition: transform 400ms;
+}
+.container_menu .border h3::after:hover::after {
+  transform: translateX(-50%) scaleX(1);
 }
 .container_menu .title_small {
   display: flex;
@@ -108,6 +124,18 @@ footer a {
   color: #faca47;
   font-size: 1.5em;
   text-decoration: none;
+}
+footer a:hover {
+  animation: wiggles 200ms ease-out infinite;
+}
+
+@keyframes wiggles {
+  25% {
+    transform: translateX(4px);
+  }
+  75% {
+    transform: translateX(-4px);
+  }
 }
 
 /*# sourceMappingURL=menu_1.css.map */

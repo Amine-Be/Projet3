@@ -19,7 +19,7 @@ body {
         /* CSS HEADER */
 header {
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     background: $background-color;
     border-bottom: 2px solid $border-bcg;
     h1 {
@@ -183,5 +183,17 @@ footer {
         color: $color-txt;
         font-size: 1.5em;
         text-decoration: none;
+        &:hover {
+            animation: wiggles 200ms ease-out infinite;
+        }
+    }
+}
+
+@keyframes wiggles {
+    25% {
+        transform: translateX(4px);
+    }
+    75% {
+        transform: translateX(-4px);
     }
 }
