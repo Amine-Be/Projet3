@@ -16,14 +16,18 @@ $first-txt: #3e2723;
 $second-bcg: #fff9ea; 
 $third-bcg: #eef0f2;  
 $fourth-bcg: #ffffff;
+$first-bdr : #1A237E;
+$second-bdr: #1976D2;
+$third-bdr:  #03A9F4;
+$first-gradient: #388E3C;
+$second-gradient: #B4ff5f;
 
-        /* CSS BODY */
-body {
+//* Mixins
+@mixin body {
   margin: auto;
-}    
-      
-        /* CSS HEADER */
-header {
+}
+
+@mixin header-typography {
   background: $background-color;
   text-align: center;
   padding: 5px;
@@ -34,6 +38,38 @@ header {
     color: $color-txt;
     letter-spacing: -4px;
   }
+}
+
+@mixin footer-typography {
+  display: flex;
+  justify-content: space-between;
+  background: $background-color;
+  font-family: "Montserrat", cursive;
+  padding: 20px;
+  border-top: 2px solid #9fcc6b;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  a {
+      color: $color-txt;
+      font-size: 1.5em;
+      text-decoration: none;
+      &:hover {
+        animation: wiggles 200ms ease-in-out infinite;
+      }
+  }
+
+}
+
+        /* CSS BODY */
+body {
+  @include body;
+}    
+      
+        /* CSS HEADER */
+header {
+  @include header-typography;
 }
 
         /* CSS CONTAINER - ARTICLES - DIV */
@@ -180,24 +216,7 @@ header {
 
         /* CSS FOOTER */
 footer {
-  display: flex;
-  justify-content: space-between;
-  background: $background-color;
-  font-family: "Montserrat", cursive;
-  padding: 20px;
-  border-top: 2px solid #9fcc6b;
-  position: fixed;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  a {
-      color: $color-txt;
-      font-size: 1.5em;
-      text-decoration: none;
-      &:hover {
-        animation: wiggles 200ms ease-in-out infinite;
-      }
-  }
+  @include footer-typography;
 }
 
 @keyframes wiggles {
