@@ -63,25 +63,21 @@ header {
             background-color: $first-txt;
         }
         h3 {
-            width: auto;
+            width: 200px;
             text-align: center;
             &::after {
                 box-sizing: border-box;
                 content: '';
                 position: absolute;
-                left: 50%;
+                left: 42%;
                 bottom: 0;
-                transform: translateX(-50%) scaleX(0);
-                transform-origin: left;
-                width: 100%;
+                width: 0;
                 height: 1px;
                 background-color: #3e2723;
-                transition: transform 400ms;
-                &:hover {
-                    &::after {
-                        transform: translateX(-50%) scaleX(1);
-                    }
-                }
+                transition: width 400ms;
+            }
+            &:hover::after {
+                width: 10%;
             }
         }
     }

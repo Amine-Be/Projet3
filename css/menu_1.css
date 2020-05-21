@@ -56,24 +56,22 @@ header h1 {
   background-color: #3e2723;
 }
 .container_menu .border h3 {
-  width: auto;
+  width: 200px;
   text-align: center;
 }
 .container_menu .border h3::after {
   box-sizing: border-box;
   content: "";
   position: absolute;
-  left: 50%;
+  left: 42%;
   bottom: 0;
-  transform: translateX(-50%) scaleX(0);
-  transform-origin: left;
-  width: 100%;
+  width: 0;
   height: 1px;
   background-color: #3e2723;
-  transition: transform 400ms;
+  transition: width 400ms;
 }
-.container_menu .border h3::after:hover::after {
-  transform: translateX(-50%) scaleX(1);
+.container_menu .border h3:hover::after {
+  width: 10%;
 }
 .container_menu .title_small {
   display: flex;
