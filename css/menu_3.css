@@ -13,7 +13,10 @@ header {
   padding: 5px;
   border-bottom: 2px solid #9FCC6B;
 }
-header h1 {
+header a {
+  text-decoration: none;
+}
+header a h1 {
   font-size: 2.8em;
   font-family: "Montserrat", cursive;
   color: #faca47;
