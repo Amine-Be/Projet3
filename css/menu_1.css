@@ -58,20 +58,22 @@ header h1 {
 .container_menu .border h3 {
   width: 200px;
   text-align: center;
+  font-size: 1.3em;
 }
 .container_menu .border h3::after {
-  box-sizing: border-box;
   content: "";
-  position: absolute;
-  left: 42%;
-  bottom: 0;
+  display: block;
   width: 0;
-  height: 1px;
-  background-color: #3e2723;
-  transition: width 400ms;
+  height: 3px;
+  margin-top: 2px;
+  transition: width 400ms ease-in-out;
 }
 .container_menu .border h3:hover::after {
-  width: 10%;
+  width: 100%;
+}
+.container_menu .border h3::after {
+  background: linear-gradient(to right, #FF4081, #FFB74D);
+  background-clip: border-box;
 }
 .container_menu .title_small {
   display: flex;

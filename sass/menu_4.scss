@@ -11,6 +11,21 @@ $fourth-bcg: #ffffff;
 $first-gradient: #388E3C;
 $second-gradient: #B4ff5f;
 
+//* Mixins
+@mixin underline {
+    &::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 3px;
+        margin: 2px auto 0;
+        transition: width 400ms ease-in-out;
+    }
+    &:hover::after {
+        width: 100%;
+    }
+}
+
         /* CSS BODY */
 body {
     margin: auto;
@@ -69,6 +84,12 @@ header {
             width: 35%;
             text-align: center;
             font-weight: normal;
+            font-size: 1.3em;
+            @include underline;
+            &::after {
+                background: radial-gradient($first-gradient 0%, $second-gradient 50%);
+                background-clip: border-box;
+            }
         }
     }
     > :nth-child(3) {
@@ -108,6 +129,12 @@ header {
             width: 35%;
             text-align: center;
             font-weight: normal;
+            font-size: 1.3em;
+            @include underline;
+            &::after {
+                background: radial-gradient($first-gradient 0%, $second-gradient 50%);
+                background-clip: border-box;
+            }
         }
     }
     > :nth-child(5) {
@@ -147,6 +174,12 @@ header {
             width: 35%;
             text-align: center;
             font-weight: normal;
+            font-size: 1.3em;
+            @include underline;
+            &::after {
+                background: radial-gradient($first-gradient 0%, $second-gradient 50%);
+                background-clip: border-box;
+            }
         }
     }
     > :nth-child(7) {

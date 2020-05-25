@@ -12,6 +12,21 @@ $second-bcg: #fff9ea;
 $third-bcg: #eef0f2;  
 $fourth-bcg: #ffffff;
 
+//* Mixins
+@mixin underline {
+    &::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 3px;
+        margin-top: 2px;
+        transition: width 400ms ease-in-out;
+    }
+    &:hover::after {
+        width: 100%;
+    }
+}
+
 
         /* CSS BODY */
 body {
@@ -75,6 +90,10 @@ header {
             width: auto;
             text-align: center;
             font-size: 1.3em;
+            @include underline;
+            &::after {
+                background-color: #d77600;
+            }
         }
     }
     > :nth-child(3) {           //* ul
@@ -118,6 +137,10 @@ header {
             width: auto;
             text-align: center;
             font-size: 1.3em;
+            @include underline;
+            &::after {
+                background-color: #9C27B0;
+            }
         }
     }
     > :nth-child(5) {           //* ul
@@ -162,6 +185,10 @@ header {
             width: auto;
             text-align: center;
             font-size: 1.3em;
+            @include underline;
+            &::after {
+                background-color: #4725a0;
+            }
         }
     }
     > :nth-child(7) {           //* ul

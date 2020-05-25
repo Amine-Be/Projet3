@@ -66,6 +66,20 @@ header h1 {
   text-align: center;
   font-size: 1.3em;
 }
+.container_menu > :nth-child(2) h3::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  margin-top: 2px;
+  transition: width 400ms ease-in-out;
+}
+.container_menu > :nth-child(2) h3:hover::after {
+  width: 100%;
+}
+.container_menu > :nth-child(2) h3::after {
+  background-color: #d77600;
+}
 .container_menu > :nth-child(3) {
   font-family: "Playfair Display", serif;
   color: #d77600;
@@ -109,6 +123,20 @@ header h1 {
   text-align: center;
   font-size: 1.3em;
 }
+.container_menu > :nth-child(4) h3::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  margin-top: 2px;
+  transition: width 400ms ease-in-out;
+}
+.container_menu > :nth-child(4) h3:hover::after {
+  width: 100%;
+}
+.container_menu > :nth-child(4) h3::after {
+  background-color: #9C27B0;
+}
 .container_menu > :nth-child(5) {
   font-family: "Playfair Display", serif;
   color: #9C27B0;
@@ -151,6 +179,20 @@ header h1 {
   width: auto;
   text-align: center;
   font-size: 1.3em;
+}
+.container_menu > :nth-child(6) h3::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  margin-top: 2px;
+  transition: width 400ms ease-in-out;
+}
+.container_menu > :nth-child(6) h3:hover::after {
+  width: 100%;
+}
+.container_menu > :nth-child(6) h3::after {
+  background-color: #4725a0;
 }
 .container_menu > :nth-child(7) {
   font-family: "Playfair Display", serif;

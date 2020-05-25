@@ -62,6 +62,21 @@ header h1 {
   width: 35%;
   text-align: center;
   font-weight: normal;
+  font-size: 1.3em;
+}
+.container_menu > :nth-child(2) h3::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  margin: 2px auto 0;
+  transition: width 400ms ease-in-out;
+}
+.container_menu > :nth-child(2) h3:hover::after {
+  width: 100%;
+}
+.container_menu > :nth-child(2) h3::after {
+  background-color: #1A237E;
 }
 .container_menu > :nth-child(3) {
   font-family: "Caveat", cursive;
@@ -102,6 +117,21 @@ header h1 {
   width: 35%;
   text-align: center;
   font-weight: normal;
+  font-size: 1.3em;
+}
+.container_menu > :nth-child(4) h3::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  margin: 2px auto 0;
+  transition: width 400ms ease-in-out;
+}
+.container_menu > :nth-child(4) h3:hover::after {
+  width: 100%;
+}
+.container_menu > :nth-child(4) h3::after {
+  background-color: #1976D2;
 }
 .container_menu > :nth-child(5) {
   font-family: "Caveat", cursive;
@@ -142,6 +172,21 @@ header h1 {
   width: 35%;
   text-align: center;
   font-weight: normal;
+  font-size: 1.3em;
+}
+.container_menu > :nth-child(6) h3::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  margin: 2px auto 0;
+  transition: width 400ms ease-in-out;
+}
+.container_menu > :nth-child(6) h3:hover::after {
+  width: 100%;
+}
+.container_menu > :nth-child(6) h3::after {
+  background-color: #03A9F4;
 }
 .container_menu > :nth-child(7) {
   font-family: "Caveat", cursive;
