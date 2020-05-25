@@ -19,7 +19,7 @@ $third-bdr:  #03A9F4;
         display: block;
         width: 0;
         height: 3px;
-        margin: 2px auto 0;
+        margin-top: 2px;
         transition: width 400ms ease-in-out;
     }
     &:hover::after {
