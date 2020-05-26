@@ -37,7 +37,7 @@ header a h1 {
 .container_menu .title_big .fa-music {
   font-size: 80px;
   margin-top: 45px;
-  color: #BD0716;
+  color: #bd0716;
 }
 .container_menu .title_big h1 {
   font-family: "Devonshire", cursive;
@@ -76,8 +76,7 @@ header a h1 {
   width: 100%;
 }
 .container_menu .border h3::after {
-  background: linear-gradient(to right, #FF4081, #FFB74D);
-  background-clip: border-box;
+  background-color: #3e2723;
 }
 .container_menu .title_small {
   display: flex;

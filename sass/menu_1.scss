@@ -59,7 +59,7 @@ header {
         .fa-music {
             font-size: 80px;
             margin-top: 45px;
-            color: #BD0716;
+            color: #bd0716;
         }
         h1 {
             font-family: 'Devonshire', cursive;
@@ -87,8 +87,7 @@ header {
             font-size: 1.3em;
             @include underline;
             &::after {
-                background: linear-gradient(to right,#FF4081 ,#FFB74D);
-                background-clip: border-box;
+                background-color: $first-txt;
             }
         }
     }
