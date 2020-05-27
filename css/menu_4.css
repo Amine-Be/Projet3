@@ -71,7 +71,7 @@ header a h1 {
   display: block;
   width: 0;
   height: 3px;
-  margin: 2px auto 0;
+  margin: 2px 0;
   transition: width 400ms ease-in-out;
 }
 .container_menu > :nth-child(2) h3:hover::after {
@@ -126,7 +126,7 @@ header a h1 {
   display: block;
   width: 0;
   height: 3px;
-  margin: 2px auto 0;
+  margin: 2px 0;
   transition: width 400ms ease-in-out;
 }
 .container_menu > :nth-child(4) h3:hover::after {
@@ -181,7 +181,7 @@ header a h1 {
   display: block;
   width: 0;
   height: 3px;
-  margin: 2px auto 0;
+  margin: 2px 0;
   transition: width 400ms ease-in-out;
 }
 .container_menu > :nth-child(6) h3:hover::after {

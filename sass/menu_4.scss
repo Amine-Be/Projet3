@@ -18,7 +18,7 @@ $second-gradient: #B4ff5f;
         display: block;
         width: 0;
         height: 3px;
-        margin: 2px auto 0;
+        margin: 2px 0;
         transition: width 400ms ease-in-out;
     }
     &:hover::after {
