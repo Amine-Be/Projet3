@@ -25,11 +25,10 @@ footer a {
   padding: 150px 20px;
 }
 .container div {
-  width: 85%;
+  width: auto;
 }
 .container div h2 {
   font-size: 1em;
-  margin-left: 25px;
 }
 
 /* RESPONSIVE - MENU */

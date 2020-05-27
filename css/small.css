@@ -10,16 +10,19 @@ header {
 footer {
   width: auto;
 }
+footer a {
+  font-size: 1.2em;
+}
 
 /* CSS INDEX */
 .container {
   width: 80%;
 }
 .container div {
-  width: 45%;
+  width: auto;
 }
 .container div h2 {
-  margin-left: 15px;
+  font-size: 1.3em;
 }
 
 /* CSS MENUS */
@@ -30,9 +33,14 @@ footer {
 .container_menu h1 {
   font-size: 2.5em;
 }
-
-ul li span {
-  margin-left: 10px;
+.container_menu > :nth-child(3) li {
+  padding: 0 20px;
+}
+.container_menu > :nth-child(5) li {
+  padding: 0 20px;
+}
+.container_menu > :nth-child(7) li {
+  padding: 0 20px;
 }
 
 /*# sourceMappingURL=small.css.map */

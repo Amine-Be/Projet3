@@ -9,15 +9,18 @@ header {
 
 footer {
     width: auto;
+    a {
+        font-size: 1.2em;
+    }
 }
 
         /* CSS INDEX */
 .container {
     width: 80%;
-    div {
-        width: 45%;
-        h2 {
-            margin-left: 15px;
+    div{
+        width: auto;
+        h2{
+            font-size: 1.3em;
         }
     }
 }
@@ -30,13 +33,19 @@ footer {
     h1 {
         font-size: 2.5em;
     }
-}
-
-ul {
-    li{
-        span {
-            margin-left: 10px;
+    > :nth-child(3) {
+        li {
+            padding: 0 20px;
         }
     }
+    > :nth-child(5) {
+        li {
+            padding: 0 20px;
+        }
+    }
+    > :nth-child(7) {
+        li {
+            padding: 0 20px;
+        }
+    }   
 }
-
