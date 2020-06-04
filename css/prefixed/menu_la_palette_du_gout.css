@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+/* CSS BODY */
+body {
+  margin: auto;
+}
+
+/* CSS HEADER */
+header {
+  text-align: center;
+  padding: 5px;
+  background: #2d9c65;
+  border-bottom: 2px solid #9FCC6B;
+}
+header a {
+  text-decoration: none;
+}
+header a h1 {
+  font-size: 2.8em;
+  font-family: "Montserrat", cursive;
+  color: #faca47;
+  letter-spacing: -4px;
+}
+
+/* CSS MENU */
+.container_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 800px;
+  margin: 100px auto;
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 13px #d3d3d3;
+          box-shadow: 0 0 13px #d3d3d3;
+}
+.container_menu h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 3.5em;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, from(#388E3C), to(#B4ff5f));
+  background: -o-linear-gradient(left, #388E3C, #B4ff5f);
+  background: linear-gradient(to right, #388E3C, #B4ff5f);
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 80px 0;
+}
+.container_menu > :nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 1.5em;
+}
+.container_menu > :nth-child(2) div {
+  width: 28%;
+  height: 3px;
+  margin: auto 35px;
+  padding-left: 25px;
+}
+.container_menu > :nth-child(2) .border_left {
+  background: -webkit-gradient(linear, left top, right top, from(#388E3C), to(#B4ff5f));
+  background: -o-linear-gradient(left, #388E3C, #B4ff5f);
+  background: linear-gradient(to right, #388E3C, #B4ff5f);
+}
+.container_menu > :nth-child(2) .border_right {
+  background: -webkit-gradient(linear, right top, left top, from(#388E3C), to(#B4ff5f));
+  background: -o-linear-gradient(right, #388E3C, #B4ff5f);
+  background: linear-gradient(to left, #388E3C, #B4ff5f);
+}
+.container_menu > :nth-child(2) h3 {
+  width: 35%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.3em;
+}
+.container_menu > :nth-child(2) h3::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  margin: 2px 0;
+  -webkit-transition: width 400ms ease-in-out;
+  -o-transition: width 400ms ease-in-out;
+  transition: width 400ms ease-in-out;
+}
+.container_menu > :nth-child(2) h3:hover::after {
+  width: 100%;
+}
+.container_menu > :nth-child(2) h3::after {
+  background: -o-radial-gradient(#388E3C 0%, #B4ff5f 50%);
+  background: radial-gradient(#388E3C 0%, #B4ff5f 50%);
+  background-clip: border-box;
+}
+.container_menu > :nth-child(3) {
+  font-family: "Caveat", cursive;
+  font-weight: normal;
+  margin: 35px 0 90px 0;
+  padding: 20px;
+}
+.container_menu > :nth-child(3) li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 0 90px;
+}
+.container_menu > :nth-child(3) span {
+  font-weight: bold;
+}
+.container_menu > :nth-child(4) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 1.5em;
+}
+.container_menu > :nth-child(4) div {
+  width: 28%;
+  height: 3px;
+  margin: auto 35px;
+  padding-left: 25px;
+}
+.container_menu > :nth-child(4) .border_left {
+  background: -webkit-gradient(linear, left top, right top, from(#388E3C), to(#B4ff5f));
+  background: -o-linear-gradient(left, #388E3C, #B4ff5f);
+  background: linear-gradient(to right, #388E3C, #B4ff5f);
+}
+.container_menu > :nth-child(4) .border_right {
+  background: -webkit-gradient(linear, right top, left top, from(#388E3C), to(#B4ff5f));
+  background: -o-linear-gradient(right, #388E3C, #B4ff5f);
+  background: linear-gradient(to left, #388E3C, #B4ff5f);
+}
+.container_menu > :nth-child(4) h3 {
+  width: 35%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.3em;
+}
+.container_menu > :nth-child(4) h3::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  margin: 2px 0;
+  -webkit-transition: width 400ms ease-in-out;
+  -o-transition: width 400ms ease-in-out;
+  transition: width 400ms ease-in-out;
+}
+.container_menu > :nth-child(4) h3:hover::after {
+  width: 100%;
+}
+.container_menu > :nth-child(4) h3::after {
+  background: -o-radial-gradient(#388E3C 0%, #B4ff5f 50%);
+  background: radial-gradient(#388E3C 0%, #B4ff5f 50%);
+  background-clip: border-box;
+}
+.container_menu > :nth-child(5) {
+  font-family: "Caveat", cursive;
+  font-weight: normal;
+  margin: 35px 0 90px 0;
+  padding: 20px;
+}
+.container_menu > :nth-child(5) li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 0 90px;
+}
+.container_menu > :nth-child(5) span {
+  font-weight: bold;
+}
+.container_menu > :nth-child(6) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 1.5em;
+}
+.container_menu > :nth-child(6) div {
+  width: 28%;
+  height: 3px;
+  margin: auto 35px;
+  padding-left: 25px;
+}
+.container_menu > :nth-child(6) .border_left {
+  background: -webkit-gradient(linear, left top, right top, from(#388E3C), to(#B4ff5f));
+  background: -o-linear-gradient(left, #388E3C, #B4ff5f);
+  background: linear-gradient(to right, #388E3C, #B4ff5f);
+}
+.container_menu > :nth-child(6) .border_right {
+  background: -webkit-gradient(linear, right top, left top, from(#388E3C), to(#B4ff5f));
+  background: -o-linear-gradient(right, #388E3C, #B4ff5f);
+  background: linear-gradient(to left, #388E3C, #B4ff5f);
+}
+.container_menu > :nth-child(6) h3 {
+  width: 35%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.3em;
+}
+.container_menu > :nth-child(6) h3::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  margin: 2px 0;
+  -webkit-transition: width 400ms ease-in-out;
+  -o-transition: width 400ms ease-in-out;
+  transition: width 400ms ease-in-out;
+}
+.container_menu > :nth-child(6) h3:hover::after {
+  width: 100%;
+}
+.container_menu > :nth-child(6) h3::after {
+  background: -o-radial-gradient(#388E3C 0%, #B4ff5f 50%);
+  background: radial-gradient(#388E3C 0%, #B4ff5f 50%);
+  background-clip: border-box;
+}
+.container_menu > :nth-child(7) {
+  font-family: "Caveat", cursive;
+  font-weight: normal;
+  margin: 35px 0 90px 0;
+  padding: 20px;
+}
+.container_menu > :nth-child(7) li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 0 90px;
+}
+.container_menu > :nth-child(7) span {
+  font-weight: bold;
+}
+
+/* CSS FOOTER */
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #2d9c65;
+  font-family: "Montserrat", cursive;
+  padding: 20px;
+  border-top: 2px solid #9FCC6B;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+footer a {
+  color: #faca47;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+footer a:hover {
+  -webkit-animation: wiggles 200ms ease-out infinite;
+          animation: wiggles 200ms ease-out infinite;
+}
+
+@-webkit-keyframes wiggles {
+  25% {
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
+  }
+  75% {
+    -webkit-transform: translateX(-4px);
+            transform: translateX(-4px);
+  }
+}
+
+@keyframes wiggles {
+  25% {
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
+  }
+  75% {
+    -webkit-transform: translateX(-4px);
+            transform: translateX(-4px);
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3Nhc3MvbWVudV9sYV9wYWxldHRlX2R1X2dvdXQuc2NzcyIsIi4uL21lbnVfbGFfcGFsZXR0ZV9kdV9nb3V0LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDUSx3RkFBQTtBQUNBLG1GQUFBO0FBQ0EsMkVBQUE7QUF5QkEsYUFBQTtBQUNSO0VBQ0ksWUFBQTtBQ3hCSjs7QUQyQlEsZUFBQTtBQUNSO0VBQ0ksa0JBQUE7RUFDQSxZQUFBO0VBQ0EsbUJBL0JlO0VBZ0NmLGdDQUFBO0FDeEJKO0FEeUJJO0VBQ0kscUJBQUE7QUN2QlI7QUR3QlE7RUFDSSxnQkFBQTtFQUNBLGtDQUFBO0VBQ0EsY0FwQ0E7RUFxQ0Esb0JBQUE7QUN0Qlo7O0FEMkJRLGFBQUE7QUFDUjtFQUNJLG9CQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0VBQ0EsNEJBQUE7RUFBQSw2QkFBQTtNQUFBLDBCQUFBO1VBQUEsc0JBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxtQkEvQ1M7RUFnRFQsb0NBQUE7VUFBQSw0QkFBQTtBQ3hCSjtBRHlCSTtFQUNJLHNDQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtFQUNBLHFGQUFBO0VBQUEsc0RBQUE7RUFBQSx1REFBQTtFQUNBLDRCQUFBO0VBQ0EsNkJBQUE7RUFDQSxrQkFBQTtFQUNBLGNBQUE7QUN2QlI7QUR5Qkk7RUFDSSxvQkFBQTtFQUFBLG9CQUFBO0VBQUEsYUFBQTtFQUNBLGtCQUFBO0VBQ0EsOEJBQUE7RUFDQSxnQkFBQTtBQ3ZCUjtBRHdCUTtFQUNJLFVBQUE7RUFDQSxXQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtBQ3RCWjtBRHdCUTtFQUNJLHFGQUFBO0VBQUEsc0RBQUE7RUFBQSx1REFBQTtBQ3RCWjtBRHdCUTtFQUNJLHFGQUFBO0VBQUEsdURBQUE7RUFBQSxzREFBQTtBQ3RCWjtBRHdCUTtFQUNJLFVBQUE7RUFDQSxrQkFBQTtFQUNBLG1CQUFBO0VBQ0EsZ0JBQUE7QUN0Qlo7QURwREk7RUFDSSxXQUFBO0VBQ0EsY0FBQTtFQUNBLFFBQUE7RUFDQSxXQUFBO0VBQ0EsYUFBQTtFQUNBLDJDQUFBO0VBQUEsc0NBQUE7RUFBQSxtQ0FBQTtBQ3NEUjtBRHBESTtFQUNJLFdBQUE7QUNzRFI7QURhWTtFQUNJLHVEQUFBO0VBQUEsb0RBQUE7RUFDQSwyQkFBQTtBQ1hoQjtBRGVJO0VBQ0ksOEJBQUE7RUFDQSxtQkFBQTtFQUNBLHFCQUFBO0VBQ0EsYUFBQTtBQ2JSO0FEY1E7RUFDSSxvQkFBQTtFQUFBLG9CQUFBO0VBQUEsYUFBQTtFQUNBLHlCQUFBO01BQUEsc0JBQUE7VUFBQSw4QkFBQTtFQUNBLGdCQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0FDWlo7QURjUTtFQUNJLGlCQUFBO0FDWlo7QURlSTtFQUNJLG9CQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0VBQ0Esa0JBQUE7RUFDQSw4QkFBQTtFQUNBLGdCQUFBO0FDYlI7QURjUTtFQUNJLFVBQUE7RUFDQSxXQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtBQ1paO0FEY1E7RUFDSSxxRkFBQTtFQUFBLHNEQUFBO0VBQUEsdURBQUE7QUNaWjtBRGNRO0VBQ0kscUZBQUE7RUFBQSx1REFBQTtFQUFBLHNEQUFBO0FDWlo7QURjUTtFQUNJLFVBQUE7RUFDQSxrQkFBQTtFQUNBLG1CQUFBO0VBQ0EsZ0JBQUE7QUNaWjtBRDNHSTtFQUNJLFdBQUE7RUFDQSxjQUFBO0VBQ0EsUUFBQTtFQUNBLFdBQUE7RUFDQSxhQUFBO0VBQ0EsMkNBQUE7RUFBQSxzQ0FBQTtFQUFBLG1DQUFBO0FDNkdSO0FEM0dJO0VBQ0ksV0FBQTtBQzZHUjtBREdZO0VBQ0ksdURBQUE7RUFBQSxvREFBQTtFQUNBLDJCQUFBO0FDRGhCO0FES0k7RUFDSSw4QkFBQTtFQUNBLG1CQUFBO0VBQ0EscUJBQUE7RUFDQSxhQUFBO0FDSFI7QURJUTtFQUNJLG9CQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0VBQ0EseUJBQUE7TUFBQSxzQkFBQTtVQUFBLDhCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7QUNGWjtBRElRO0VBQ0ksaUJBQUE7QUNGWjtBREtJO0VBQ0ksb0JBQUE7RUFBQSxvQkFBQTtFQUFBLGFBQUE7RUFDQSxrQkFBQTtFQUNBLDhCQUFBO0VBQ0EsZ0JBQUE7QUNIUjtBRElRO0VBQ0ksVUFBQTtFQUNBLFdBQUE7RUFDQSxpQkFBQTtFQUNBLGtCQUFBO0FDRlo7QURJUTtFQUNJLHFGQUFBO0VBQUEsc0RBQUE7RUFBQSx1REFBQTtBQ0ZaO0FESVE7RUFDSSxxRkFBQTtFQUFBLHVEQUFBO0VBQUEsc0RBQUE7QUNGWjtBRElRO0VBQ0ksVUFBQTtFQUNBLGtCQUFBO0VBQ0EsbUJBQUE7RUFDQSxnQkFBQTtBQ0ZaO0FEbEtJO0VBQ0ksV0FBQTtFQUNBLGNBQUE7RUFDQSxRQUFBO0VBQ0EsV0FBQTtFQUNBLGFBQUE7RUFDQSwyQ0FBQTtFQUFBLHNDQUFBO0VBQUEsbUNBQUE7QUNvS1I7QURsS0k7RUFDSSxXQUFBO0FDb0tSO0FEUFk7RUFDSSx1REFBQTtFQUFBLG9EQUFBO0VBQ0EsMkJBQUE7QUNTaEI7QURMSTtFQUNJLDhCQUFBO0VBQ0EsbUJBQUE7RUFDQSxxQkFBQTtFQUNBLGFBQUE7QUNPUjtBRE5RO0VBQ0ksb0JBQUE7RUFBQSxvQkFBQTtFQUFBLGFBQUE7RUFDQSx5QkFBQTtNQUFBLHNCQUFBO1VBQUEsOEJBQUE7RUFDQSxnQkFBQTtFQUNBLG1CQUFBO0VBQ0EsZUFBQTtBQ1FaO0FETlE7RUFDSSxpQkFBQTtBQ1FaOztBREhRLGVBQUE7QUFDUjtFQUNJLG9CQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0VBQ0EseUJBQUE7TUFBQSxzQkFBQTtVQUFBLDhCQUFBO0VBQ0EseUJBM01lO0VBNE1mLGtDQUFBO0VBQ0EsYUFBQTtFQUNBLDZCQUFBO0VBQ0EsZUFBQTtFQUNBLFFBQUE7RUFDQSxPQUFBO0VBQ0EsU0FBQTtBQ01KO0FETEk7RUFDSSxjQWxOSTtFQW1OSixnQkFBQTtFQUNBLHFCQUFBO0FDT1I7QUROUTtFQUNJLGtEQUFBO1VBQUEsMENBQUE7QUNRWjs7QURIQTtFQUNJO0lBQ0ksa0NBQUE7WUFBQSwwQkFBQTtFQ01OO0VESkU7SUFDSSxtQ0FBQTtZQUFBLDJCQUFBO0VDTU47QUFDRjs7QURaQTtFQUNJO0lBQ0ksa0NBQUE7WUFBQSwwQkFBQTtFQ01OO0VESkU7SUFDSSxtQ0FBQTtZQUFBLDJCQUFBO0VDTU47QUFDRiIsImZpbGUiOiJtZW51X2xhX3BhbGV0dGVfZHVfZ291dC5jc3MifQ== */
