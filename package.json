@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch sass:css",
-    "prefix": "postcss css/menu_la_note_enchantee.css --use autoprefixer -d css/prefixed/"
+    "prefix": "postcss css/main.css css/menu_la_note_enchantee.css css/menu_le_chic_a_la_française.css css/menu_le_delice_des_papilles.css css/menu_la_palette_du_gout.css css/mentions_legales.css --use autoprefixer -d css/prefixed/"
   },
   "repository": {
     "type": "git",
