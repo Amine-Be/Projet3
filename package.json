@@ -1,7 +1,7 @@
 {
-  "name": "desktop",
+  "name": "projet3",
   "version": "1.0.0",
-  "description": "",
+  "description": "ohmyfood website",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch sass:css",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/Amine-Be/Projet3"
   },
-  "author": "",
+  "author": "Amine-Be",
   "license": "ISC",
   "browserslist": "last 4 versions"
 }
